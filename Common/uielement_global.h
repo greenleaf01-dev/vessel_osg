@@ -1,0 +1,12 @@
+#ifndef UIELEMENT_GLOBAL_H
+#define UIELEMENT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(UIELEMENT_LIBRARY)
+#  define UIELEMENTSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define UIELEMENTSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // UIELEMENT_GLOBAL_H

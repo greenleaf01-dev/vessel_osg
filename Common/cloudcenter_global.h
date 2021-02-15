@@ -1,0 +1,16 @@
+#ifndef CLOUDCENTER_GLOBAL_H
+#define CLOUDCENTER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef LIB_STATIC_CLOUDCENTER
+    #define CLOUDCENTERSHARED_EXPORT
+#else
+    #if defined(CLOUDCENTER_LIBRARY)
+        #  define CLOUDCENTERSHARED_EXPORT Q_DECL_EXPORT
+    #else
+        #  define CLOUDCENTERSHARED_EXPORT Q_DECL_IMPORT
+    #endif
+#endif // LIB_STATIC_GESTURE
+
+#endif // CLOUDCENTER_GLOBAL_H

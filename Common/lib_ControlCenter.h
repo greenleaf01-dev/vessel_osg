@@ -1,0 +1,16 @@
+#ifndef LIB_CONTROLCENTER_H
+#define LIB_CONTROLCENTER_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef LIB_STATIC_CONTROLCENTER
+    #define LIB_CONTROLCENTER_EXPORT
+#else
+    #if defined(LIB_CONTROLCENTER_BUILD)
+        #define LIB_CONTROLCENTER_EXPORT Q_DECL_EXPORT
+    #else
+        #define LIB_CONTROLCENTER_EXPORT Q_DECL_IMPORT
+    #endif
+#endif // LIB_STATIC
+
+#endif // LIB_CONTROLCENTER_H

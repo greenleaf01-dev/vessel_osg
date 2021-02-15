@@ -1,0 +1,12 @@
+#ifndef GENERALTOOL_GLOBAL_H
+#define GENERALTOOL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(GENERALTOOL_LIBRARY)
+#  define GENERALTOOL_EXPORT Q_DECL_EXPORT
+#else
+#  define GENERALTOOL_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // GENERALTOOL_GLOBAL_H

@@ -1,0 +1,1329 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (da45adbc).
+//
+// f:\hitetouchpro_work\test_cross_1\utility\win32\debug\acrobat.tlh
+//
+// C++ source equivalent of Win32 type library ./ImportFile/Acrobat.dll
+// compiler-generated file created 03/06/18 at 09:29:26 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace XPDF {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("e64169b3-3592-47d2-816e-602c5c13f328"))
+/* LIBID */ __Acrobat;
+enum AVZoomType;
+enum PDRotateFlags;
+enum PDViewMode;
+enum PDDocFlags;
+enum PDSaveFlags;
+enum AVOpenParams;
+struct __declspec(uuid("9b4cd3e6-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroApp;
+struct __declspec(uuid("9b4cd3e8-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroAVDoc;
+struct __declspec(uuid("9b4cd3e9-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroAVPageView;
+struct __declspec(uuid("9b4cd3e7-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroPDDoc;
+struct __declspec(uuid("9b4cd3ea-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroPDPage;
+struct __declspec(uuid("9b4cd3ef-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroPDTextSelect;
+struct __declspec(uuid("9b4cd3eb-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroPDAnnot;
+struct __declspec(uuid("9b4cd3f1-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroPDBookmark;
+struct __declspec(uuid("9b4cd3ed-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroRect;
+struct __declspec(uuid("9b4cd3ec-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroPoint;
+struct __declspec(uuid("9b4cd3ee-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroTime;
+struct __declspec(uuid("9b4cd3f0-4981-101b-9ca8-9240ce2738ae"))
+/* dual interface */ CAcroHiliteList;
+struct __declspec(uuid("5781ded0-fb8b-11d3-9a92-005004a56d53"))
+/* interface */ IProvideESData;
+struct __declspec(uuid("08a9e040-9a9c-4f42-b5f5-2029b8f17e1d"))
+/* dual interface */ IAcroAXDoc;
+struct __declspec(uuid("2dea7885-1846-411f-a41e-017a8fd778ff"))
+/* dispinterface */ _AcroAXDocEventSink;
+struct /* coclass */ AcroApp;
+struct /* coclass */ AcroAVDoc;
+struct /* coclass */ AcroAVPageView;
+struct /* coclass */ AcroPDDoc;
+struct /* coclass */ AcroPDPage;
+struct /* coclass */ AcroPDTextSelect;
+struct /* coclass */ AcroPDAnnot;
+struct /* coclass */ AcroPDBookmark;
+struct /* coclass */ AcroRect;
+struct /* coclass */ AcroPoint;
+struct /* coclass */ AcroTime;
+struct /* coclass */ AcroHiliteList;
+struct /* coclass */ AcroAXDoc;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(CAcroApp, __uuidof(CAcroApp));
+_COM_SMARTPTR_TYPEDEF(CAcroAVDoc, __uuidof(CAcroAVDoc));
+_COM_SMARTPTR_TYPEDEF(CAcroAVPageView, __uuidof(CAcroAVPageView));
+_COM_SMARTPTR_TYPEDEF(CAcroPDDoc, __uuidof(CAcroPDDoc));
+_COM_SMARTPTR_TYPEDEF(CAcroPDPage, __uuidof(CAcroPDPage));
+_COM_SMARTPTR_TYPEDEF(CAcroPDTextSelect, __uuidof(CAcroPDTextSelect));
+_COM_SMARTPTR_TYPEDEF(CAcroPDAnnot, __uuidof(CAcroPDAnnot));
+_COM_SMARTPTR_TYPEDEF(CAcroPDBookmark, __uuidof(CAcroPDBookmark));
+_COM_SMARTPTR_TYPEDEF(CAcroRect, __uuidof(CAcroRect));
+_COM_SMARTPTR_TYPEDEF(CAcroPoint, __uuidof(CAcroPoint));
+_COM_SMARTPTR_TYPEDEF(CAcroTime, __uuidof(CAcroTime));
+_COM_SMARTPTR_TYPEDEF(CAcroHiliteList, __uuidof(CAcroHiliteList));
+_COM_SMARTPTR_TYPEDEF(IProvideESData, __uuidof(IProvideESData));
+_COM_SMARTPTR_TYPEDEF(IAcroAXDoc, __uuidof(IAcroAXDoc));
+_COM_SMARTPTR_TYPEDEF(_AcroAXDocEventSink, __uuidof(_AcroAXDocEventSink));
+
+//
+// Type library items
+//
+
+enum AVZoomType
+{
+    AVZoomNoVary = 0,
+    AVZoomFitPage = 1,
+    AVZoomFitWidth = 2,
+    AVZoomFitHeight = 3,
+    AVZoomFitVisibleWidth = 4,
+    AVZoomPreferred = 5
+};
+
+enum PDRotateFlags
+{
+    pdRotate0 = 0,
+    pdRotate90 = 90,
+    pdRotate180 = 180,
+    pdRotate270 = 270
+};
+
+enum PDViewMode
+{
+    PDDontCare = 0,
+    PDUseNone = 1,
+    PDUseThumbs = 2,
+    PDUseBookmarks = 3,
+    PDFullScreen = 4
+};
+
+enum PDDocFlags
+{
+    PDDocNeedsSave = 1,
+    PDDocRequiresFullSave = 2,
+    PDDocIsModified = 4,
+    PDDocDeleteOnClose = 8,
+    PDDocWasRepaired = 16,
+    PDDocNewMajorVersion = 32,
+    PDDocNewMinorVersion = 64,
+    PDDocOldVersion = 128,
+    PDDocSuppressErrors = 256,
+    PDDocIsEmbedded = 512,
+    PDDocIsLinearized = 1024,
+    PDDocIsOptimized = 2048
+};
+
+enum PDSaveFlags
+{
+    PDSaveIncremental = 0,
+    PDSaveFull = 1,
+    PDSaveCopy = 2,
+    PDSaveLinearized = 4,
+    PDSaveWithPSHeader = 8,
+    PDSaveBinaryOK = 16,
+    PDSaveCollectGarbage = 32
+};
+
+enum AVOpenParams
+{
+    AV_EXTERNAL_VIEW = 1,
+    AV_DOC_VIEW = 2,
+    AV_PAGE_VIEW = 4
+};
+
+struct __declspec(uuid("9b4cd3e6-4981-101b-9ca8-9240ce2738ae"))
+CAcroApp : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Exit ( );
+    VARIANT_BOOL Hide ( );
+    VARIANT_BOOL Show ( );
+    VARIANT_BOOL CloseAllDocs ( );
+    VARIANT_BOOL MenuItemExecute (
+        _bstr_t szMenuItemName );
+    _bstr_t GetActiveTool ( );
+    VARIANT_BOOL SetActiveTool (
+        _bstr_t szButtonName,
+        long bPersistent );
+    VARIANT_BOOL ToolButtonRemove (
+        _bstr_t szButtonName );
+    VARIANT_BOOL ToolButtonIsEnabled (
+        _bstr_t szButtonName );
+    VARIANT_BOOL MenuItemRemove (
+        _bstr_t szMenuItemName );
+    VARIANT_BOOL MenuItemIsEnabled (
+        _bstr_t szMenuItemName );
+    VARIANT_BOOL MenuItemIsMarked (
+        _bstr_t szMenuItemName );
+    long GetNumAVDocs ( );
+    IDispatchPtr GetAVDoc (
+        long lIndex );
+    IDispatchPtr GetActiveDoc ( );
+    _bstr_t GetLanguage ( );
+    VARIANT_BOOL Lock (
+        _bstr_t szLockedBy );
+    VARIANT_BOOL Unlock ( );
+    VARIANT_BOOL SetPreference (
+        short nType,
+        long lValue );
+    long GetPreference (
+        short nType );
+    VARIANT_BOOL Maximize (
+        long vbMaximize );
+    VARIANT_BOOL SetFrame (
+        IDispatch * pRect );
+    IDispatchPtr GetFrame ( );
+    VARIANT_BOOL Minimize (
+        long vbMinimize );
+    VARIANT_BOOL Restore (
+        long vbRestore );
+    VARIANT_BOOL UnlockEx (
+        _bstr_t sLockedBy );
+    IDispatchPtr GetInterface (
+        _bstr_t name );
+    VARIANT_BOOL SetPreferenceEx (
+        short nType,
+        VARIANT * val );
+    _variant_t GetPreferenceEx (
+        short nType );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Exit (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Hide (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Show (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_CloseAllDocs (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_MenuItemExecute (
+        /*[in]*/ BSTR szMenuItemName,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetActiveTool (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_SetActiveTool (
+        /*[in]*/ BSTR szButtonName,
+        /*[in]*/ long bPersistent,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ToolButtonRemove (
+        /*[in]*/ BSTR szButtonName,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ToolButtonIsEnabled (
+        /*[in]*/ BSTR szButtonName,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_MenuItemRemove (
+        /*[in]*/ BSTR szMenuItemName,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_MenuItemIsEnabled (
+        /*[in]*/ BSTR szMenuItemName,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_MenuItemIsMarked (
+        /*[in]*/ BSTR szMenuItemName,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetNumAVDocs (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetAVDoc (
+        /*[in]*/ long lIndex,
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetActiveDoc (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetLanguage (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_Lock (
+        /*[in]*/ BSTR szLockedBy,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Unlock (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetPreference (
+        /*[in]*/ short nType,
+        /*[in]*/ long lValue,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetPreference (
+        /*[in]*/ short nType,
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_Maximize (
+        /*[in]*/ long vbMaximize,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetFrame (
+        /*[in]*/ IDispatch * pRect,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetFrame (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_Minimize (
+        /*[in]*/ long vbMinimize,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Restore (
+        /*[in]*/ long vbRestore,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_UnlockEx (
+        /*[in]*/ BSTR sLockedBy,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetInterface (
+        /*[in]*/ BSTR name,
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_SetPreferenceEx (
+        /*[in]*/ short nType,
+        /*[in]*/ VARIANT * val,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetPreferenceEx (
+        /*[in]*/ short nType,
+        /*[out,retval]*/ VARIANT * vRet ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3e8-4981-101b-9ca8-9240ce2738ae"))
+CAcroAVDoc : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Open (
+        _bstr_t szFullPath,
+        _bstr_t szTempTitle );
+    IDispatchPtr GetPDDoc ( );
+    IDispatchPtr GetAVPageView ( );
+    VARIANT_BOOL SetViewMode (
+        long nType );
+    VARIANT_BOOL __FindText (
+        _bstr_t szText,
+        long bCaseSensitive,
+        long bWholeWordsOnly,
+        long bReset );
+    VARIANT_BOOL Close (
+        long bNoSave );
+    long GetViewMode ( );
+    VARIANT_BOOL PrintPages (
+        long nFirstPage,
+        long nLastPage,
+        long nPSLevel,
+        long bBinaryOk,
+        long bShrinkToFit );
+    VARIANT_BOOL ClearSelection ( );
+    VARIANT_BOOL BringToFront ( );
+    _bstr_t GetTitle ( );
+    VARIANT_BOOL Maximize (
+        long vbMaximize );
+    VARIANT_BOOL SetTitle (
+        _bstr_t szTitle );
+    VARIANT_BOOL OpenInWindow (
+        _bstr_t szFullPath,
+        short hWnd );
+    VARIANT_BOOL SetTextSelection (
+        IDispatch * iAcroPDTextSelect );
+    VARIANT_BOOL ShowTextSelect ( );
+    VARIANT_BOOL SetFrame (
+        IDispatch * rect );
+    IDispatchPtr GetFrame ( );
+    VARIANT_BOOL IsValid ( );
+    VARIANT_BOOL OpenInWindowEx (
+        _bstr_t szFullPath,
+        long hWnd,
+        long openFlgs,
+        long UseOpenParams,
+        long pgNum,
+        short pageMode,
+        short ZoomType,
+        long Zoom,
+        short Top,
+        short Left );
+    VARIANT_BOOL PrintPagesSilent (
+        long nFirstPage,
+        long nLastPage,
+        long nPSLevel,
+        long bBinaryOk,
+        long bShrinkToFit );
+    VARIANT_BOOL PrintPagesEx (
+        long nFirstPage,
+        long nLastPage,
+        long nPSLevel,
+        long bBinaryOk,
+        long bShrinkToFit,
+        long bReverse,
+        long bFarEastFontOpt,
+        long bEmitHalftones,
+        long iPageOption );
+    VARIANT_BOOL PrintPagesSilentEx (
+        long nFirstPage,
+        long nLastPage,
+        long nPSLevel,
+        long bBinaryOk,
+        long bShrinkToFit,
+        long bReverse,
+        long bFarEastFontOpt,
+        long bEmitHalftones,
+        long iPageOption );
+    IDispatchPtr GetParentPDDoc ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Open (
+        /*[in]*/ BSTR szFullPath,
+        /*[in]*/ BSTR szTempTitle,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetPDDoc (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetAVPageView (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_SetViewMode (
+        /*[in]*/ long nType,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw___FindText (
+        /*[in]*/ BSTR szText,
+        /*[in]*/ long bCaseSensitive,
+        /*[in]*/ long bWholeWordsOnly,
+        /*[in]*/ long bReset,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Close (
+        /*[in]*/ long bNoSave,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetViewMode (
+        /*[out,retval]*/ long * vlRet ) = 0;
+      virtual HRESULT __stdcall raw_PrintPages (
+        /*[in]*/ long nFirstPage,
+        /*[in]*/ long nLastPage,
+        /*[in]*/ long nPSLevel,
+        /*[in]*/ long bBinaryOk,
+        /*[in]*/ long bShrinkToFit,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ClearSelection (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_BringToFront (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetTitle (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_Maximize (
+        /*[in]*/ long vbMaximize,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetTitle (
+        /*[in]*/ BSTR szTitle,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_OpenInWindow (
+        /*[in]*/ BSTR szFullPath,
+        /*[in]*/ short hWnd,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetTextSelection (
+        /*[in]*/ IDispatch * iAcroPDTextSelect,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ShowTextSelect (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetFrame (
+        /*[in]*/ IDispatch * rect,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetFrame (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_IsValid (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_OpenInWindowEx (
+        /*[in]*/ BSTR szFullPath,
+        /*[in]*/ long hWnd,
+        /*[in]*/ long openFlgs,
+        /*[in]*/ long UseOpenParams,
+        /*[in]*/ long pgNum,
+        /*[in]*/ short pageMode,
+        /*[in]*/ short ZoomType,
+        /*[in]*/ long Zoom,
+        /*[in]*/ short Top,
+        /*[in]*/ short Left,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_PrintPagesSilent (
+        /*[in]*/ long nFirstPage,
+        /*[in]*/ long nLastPage,
+        /*[in]*/ long nPSLevel,
+        /*[in]*/ long bBinaryOk,
+        /*[in]*/ long bShrinkToFit,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_PrintPagesEx (
+        /*[in]*/ long nFirstPage,
+        /*[in]*/ long nLastPage,
+        /*[in]*/ long nPSLevel,
+        /*[in]*/ long bBinaryOk,
+        /*[in]*/ long bShrinkToFit,
+        /*[in]*/ long bReverse,
+        /*[in]*/ long bFarEastFontOpt,
+        /*[in]*/ long bEmitHalftones,
+        /*[in]*/ long iPageOption,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_PrintPagesSilentEx (
+        /*[in]*/ long nFirstPage,
+        /*[in]*/ long nLastPage,
+        /*[in]*/ long nPSLevel,
+        /*[in]*/ long bBinaryOk,
+        /*[in]*/ long bShrinkToFit,
+        /*[in]*/ long bReverse,
+        /*[in]*/ long bFarEastFontOpt,
+        /*[in]*/ long bEmitHalftones,
+        /*[in]*/ long iPageOption,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetParentPDDoc (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3e9-4981-101b-9ca8-9240ce2738ae"))
+CAcroAVPageView : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GoTo (
+        long nPage );
+    VARIANT_BOOL ZoomTo (
+        short nType,
+        short nScale );
+    VARIANT_BOOL ScrollTo (
+        short nX,
+        short nY );
+    VARIANT_BOOL ReadPageUp ( );
+    VARIANT_BOOL ReadPageDown ( );
+    VARIANT_BOOL DoGoBack ( );
+    VARIANT_BOOL DoGoForward ( );
+    IDispatchPtr GetAVDoc ( );
+    IDispatchPtr GetPage ( );
+    IDispatchPtr GetDoc ( );
+    long GetZoom ( );
+    short GetZoomType ( );
+    long GetPageNum ( );
+    IDispatchPtr PointToDevice (
+        IDispatch * point );
+    IDispatchPtr DevicePointToPage (
+        IDispatch * point );
+    IDispatchPtr GetAperture ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GoTo (
+        /*[in]*/ long nPage,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ZoomTo (
+        /*[in]*/ short nType,
+        /*[in]*/ short nScale,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ScrollTo (
+        /*[in]*/ short nX,
+        /*[in]*/ short nY,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ReadPageUp (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ReadPageDown (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_DoGoBack (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_DoGoForward (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetAVDoc (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetPage (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetDoc (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetZoom (
+        /*[out,retval]*/ long * lZoom ) = 0;
+      virtual HRESULT __stdcall raw_GetZoomType (
+        /*[out,retval]*/ short * nZoomType ) = 0;
+      virtual HRESULT __stdcall raw_GetPageNum (
+        /*[out,retval]*/ long * lPageNum ) = 0;
+      virtual HRESULT __stdcall raw_PointToDevice (
+        /*[in]*/ IDispatch * point,
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_DevicePointToPage (
+        /*[in]*/ IDispatch * point,
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_GetAperture (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3e7-4981-101b-9ca8-9240ce2738ae"))
+CAcroPDDoc : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Open (
+        _bstr_t szFullPath );
+    VARIANT_BOOL Close ( );
+    VARIANT_BOOL InsertPages (
+        long nInsertPageAfter,
+        IDispatch * iPDDocSource,
+        long lStartPage,
+        long lNumPages,
+        long lInsertFlags );
+    VARIANT_BOOL ReplacePages (
+        long nStartPage,
+        IDispatch * iPDDocSource,
+        long lStartSourcePage,
+        long lNumPages,
+        long bMergeTextAnnotations );
+    VARIANT_BOOL DeletePages (
+        long nStartPage,
+        long nEndPage );
+    long GetNumPages ( );
+    VARIANT_BOOL Create ( );
+    _bstr_t GetInfo (
+        _bstr_t sInfoKey );
+    VARIANT_BOOL SetInfo (
+        _bstr_t sInfoKey,
+        _bstr_t szBuffer );
+    VARIANT_BOOL DeleteThumbs (
+        long lStartPage,
+        long lEndPage );
+    VARIANT_BOOL MovePage (
+        long lMoveAfterThisPage,
+        long lPageToMove );
+    _bstr_t GetFileName ( );
+    long GetPageMode ( );
+    VARIANT_BOOL SetPageMode (
+        long nPageMode );
+    VARIANT_BOOL CreateThumbs (
+        long lFirstPage,
+        long lLastPage );
+    IDispatchPtr CreateTextSelect (
+        long lPage,
+        IDispatch * iAcroRect );
+    IDispatchPtr AcquirePage (
+        long nPage );
+    _bstr_t GetInstanceID ( );
+    _bstr_t GetPermanentID ( );
+    long GetFlags ( );
+    VARIANT_BOOL SetFlags (
+        long nFlags );
+    IDispatchPtr OpenAVDoc (
+        _bstr_t sTempTitle );
+    VARIANT_BOOL Save (
+        short nType,
+        _bstr_t sFullPath );
+    VARIANT_BOOL ClearFlags (
+        long nFlags );
+    VARIANT_BOOL SetOpenInfo (
+        long pgNum,
+        short viewMode,
+        _bstr_t magnification );
+    VARIANT_BOOL CropPages (
+        long nStartPage,
+        long nEndPage,
+        short nOddOrEvenPagesOnly,
+        IDispatch * iAcroRect );
+    IDispatchPtr GetJSObject ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Open (
+        /*[in]*/ BSTR szFullPath,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Close (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_InsertPages (
+        /*[in]*/ long nInsertPageAfter,
+        /*[in]*/ IDispatch * iPDDocSource,
+        /*[in]*/ long lStartPage,
+        /*[in]*/ long lNumPages,
+        /*[in]*/ long lInsertFlags,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ReplacePages (
+        /*[in]*/ long nStartPage,
+        /*[in]*/ IDispatch * iPDDocSource,
+        /*[in]*/ long lStartSourcePage,
+        /*[in]*/ long lNumPages,
+        /*[in]*/ long bMergeTextAnnotations,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_DeletePages (
+        /*[in]*/ long nStartPage,
+        /*[in]*/ long nEndPage,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetNumPages (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_Create (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetInfo (
+        /*[in]*/ BSTR sInfoKey,
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_SetInfo (
+        /*[in]*/ BSTR sInfoKey,
+        /*[in]*/ BSTR szBuffer,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_DeleteThumbs (
+        /*[in]*/ long lStartPage,
+        /*[in]*/ long lEndPage,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_MovePage (
+        /*[in]*/ long lMoveAfterThisPage,
+        /*[in]*/ long lPageToMove,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetFileName (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_GetPageMode (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_SetPageMode (
+        /*[in]*/ long nPageMode,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_CreateThumbs (
+        /*[in]*/ long lFirstPage,
+        /*[in]*/ long lLastPage,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_CreateTextSelect (
+        /*[in]*/ long lPage,
+        /*[in]*/ IDispatch * iAcroRect,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_AcquirePage (
+        /*[in]*/ long nPage,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetInstanceID (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_GetPermanentID (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_GetFlags (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_SetFlags (
+        /*[in]*/ long nFlags,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_OpenAVDoc (
+        /*[in]*/ BSTR sTempTitle,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_Save (
+        /*[in]*/ short nType,
+        /*[in]*/ BSTR sFullPath,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_ClearFlags (
+        /*[in]*/ long nFlags,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetOpenInfo (
+        /*[in]*/ long pgNum,
+        /*[in]*/ short viewMode,
+        /*[in]*/ BSTR magnification,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_CropPages (
+        /*[in]*/ long nStartPage,
+        /*[in]*/ long nEndPage,
+        /*[in]*/ short nOddOrEvenPagesOnly,
+        /*[in]*/ IDispatch * iAcroRect,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetJSObject (
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3ea-4981-101b-9ca8-9240ce2738ae"))
+CAcroPDPage : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDispatchPtr GetSize ( );
+    IDispatchPtr GetAnnot (
+        long lIndex );
+    IDispatchPtr AddNewAnnot (
+        long nIndexAddAfter,
+        _bstr_t szSubType,
+        IDispatch * pRectDispatch );
+    VARIANT_BOOL AddAnnot (
+        long lIndexAddAfter,
+        IDispatch * pDispatch );
+    VARIANT_BOOL RemoveAnnot (
+        long lIndex );
+    long GetAnnotIndex (
+        IDispatch * pDispatch );
+    long GetNumAnnots ( );
+    IDispatchPtr CreatePageHilite (
+        IDispatch * pAcroHiliteList );
+    IDispatchPtr CreateWordHilite (
+        IDispatch * pAcroHiliteList );
+    IDispatchPtr GetDoc ( );
+    long GetNumber ( );
+    VARIANT_BOOL Draw (
+        short nHWND,
+        short nHDC,
+        short nXOrigin,
+        short nYOrigin,
+        short nZoom );
+    short GetRotate ( );
+    VARIANT_BOOL SetRotate (
+        short nRotate );
+    VARIANT_BOOL DrawEx (
+        long nHWND,
+        long nHDC,
+        IDispatch * updateRect,
+        short nXOrigin,
+        short nYOrigin,
+        short nZoom );
+    VARIANT_BOOL CopyToClipboard (
+        IDispatch * boundRect,
+        short nXOrigin,
+        short nYOrigin,
+        short nZoom );
+    VARIANT_BOOL CropPage (
+        IDispatch * rect );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetSize (
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetAnnot (
+        /*[in]*/ long lIndex,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_AddNewAnnot (
+        /*[in]*/ long nIndexAddAfter,
+        /*[in]*/ BSTR szSubType,
+        /*[in]*/ IDispatch * pRectDispatch,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_AddAnnot (
+        /*[in]*/ long lIndexAddAfter,
+        /*[in]*/ IDispatch * pDispatch,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_RemoveAnnot (
+        /*[in]*/ long lIndex,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetAnnotIndex (
+        /*[in]*/ IDispatch * pDispatch,
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetNumAnnots (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_CreatePageHilite (
+        /*[in]*/ IDispatch * pAcroHiliteList,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_CreateWordHilite (
+        /*[in]*/ IDispatch * pAcroHiliteList,
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetDoc (
+        /*[out,retval]*/ IDispatch * * lPDDocDispatch ) = 0;
+      virtual HRESULT __stdcall raw_GetNumber (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_Draw (
+        /*[in]*/ short nHWND,
+        /*[in]*/ short nHDC,
+        /*[in]*/ short nXOrigin,
+        /*[in]*/ short nYOrigin,
+        /*[in]*/ short nZoom,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetRotate (
+        /*[out,retval]*/ short * nRet ) = 0;
+      virtual HRESULT __stdcall raw_SetRotate (
+        /*[in]*/ short nRotate,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_DrawEx (
+        /*[in]*/ long nHWND,
+        /*[in]*/ long nHDC,
+        /*[in]*/ IDispatch * updateRect,
+        /*[in]*/ short nXOrigin,
+        /*[in]*/ short nYOrigin,
+        /*[in]*/ short nZoom,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_CopyToClipboard (
+        /*[in]*/ IDispatch * boundRect,
+        /*[in]*/ short nXOrigin,
+        /*[in]*/ short nYOrigin,
+        /*[in]*/ short nZoom,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_CropPage (
+        /*[in]*/ IDispatch * rect,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3ef-4981-101b-9ca8-9240ce2738ae"))
+CAcroPDTextSelect : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Destroy ( );
+    long GetNumText ( );
+    IDispatchPtr GetBoundingRect ( );
+    long GetPage ( );
+    _bstr_t GetText (
+        long lTextIndex );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Destroy (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetNumText (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetBoundingRect (
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetPage (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_GetText (
+        /*[in]*/ long lTextIndex,
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3eb-4981-101b-9ca8-9240ce2738ae"))
+CAcroPDAnnot : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL IsValid ( );
+    _bstr_t GetSubtype ( );
+    VARIANT_BOOL IsEqual (
+        IDispatch * PDAnnot );
+    long GetColor ( );
+    VARIANT_BOOL SetColor (
+        long nRGBColor );
+    _bstr_t GetTitle ( );
+    VARIANT_BOOL SetTitle (
+        _bstr_t szTitle );
+    _bstr_t GetContents ( );
+    VARIANT_BOOL SetContents (
+        _bstr_t szContents );
+    VARIANT_BOOL IsOpen ( );
+    VARIANT_BOOL SetOpen (
+        long bIsOpen );
+    IDispatchPtr GetRect ( );
+    VARIANT_BOOL SetRect (
+        IDispatch * rect );
+    IDispatchPtr GetDate ( );
+    VARIANT_BOOL SetDate (
+        IDispatch * lAcroTime );
+    VARIANT_BOOL Perform (
+        IDispatch * pAcroAVDoc );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_IsValid (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetSubtype (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_IsEqual (
+        /*[in]*/ IDispatch * PDAnnot,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetColor (
+        /*[out,retval]*/ long * lRet ) = 0;
+      virtual HRESULT __stdcall raw_SetColor (
+        /*[in]*/ long nRGBColor,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetTitle (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_SetTitle (
+        /*[in]*/ BSTR szTitle,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetContents (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_SetContents (
+        /*[in]*/ BSTR szContents,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_IsOpen (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_SetOpen (
+        /*[in]*/ long bIsOpen,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetRect (
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_SetRect (
+        /*[in]*/ IDispatch * rect,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetDate (
+        /*[out,retval]*/ IDispatch * * lRet ) = 0;
+      virtual HRESULT __stdcall raw_SetDate (
+        /*[in]*/ IDispatch * lAcroTime,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Perform (
+        /*[in]*/ IDispatch * pAcroAVDoc,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3f1-4981-101b-9ca8-9240ce2738ae"))
+CAcroPDBookmark : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetByTitle (
+        IDispatch * pAcroPDDoc,
+        _bstr_t sBookmarkTitle );
+    VARIANT_BOOL Destroy ( );
+    VARIANT_BOOL IsValid ( );
+    _bstr_t GetTitle ( );
+    VARIANT_BOOL SetTitle (
+        _bstr_t sNewTitle );
+    VARIANT_BOOL Perform (
+        IDispatch * pAcroAVDoc );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetByTitle (
+        /*[in]*/ IDispatch * pAcroPDDoc,
+        /*[in]*/ BSTR sBookmarkTitle,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Destroy (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_IsValid (
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_GetTitle (
+        /*[out,retval]*/ BSTR * sRet ) = 0;
+      virtual HRESULT __stdcall raw_SetTitle (
+        /*[in]*/ BSTR sNewTitle,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+      virtual HRESULT __stdcall raw_Perform (
+        /*[in]*/ IDispatch * pAcroAVDoc,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3ed-4981-101b-9ca8-9240ce2738ae"))
+CAcroRect : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLeft,put=PutLeft))
+    short Left;
+    __declspec(property(get=GetTop,put=PutTop))
+    short Top;
+    __declspec(property(get=Getright,put=Putright))
+    short right;
+    __declspec(property(get=Getbottom,put=Putbottom))
+    short bottom;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    short GetLeft ( );
+    void PutLeft (
+        short pVal );
+    short GetTop ( );
+    void PutTop (
+        short pVal );
+    short Getright ( );
+    void Putright (
+        short pVal );
+    short Getbottom ( );
+    void Putbottom (
+        short pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Left (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_Left (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_Top (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_Top (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_right (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_right (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_bottom (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_bottom (
+        /*[in]*/ short pVal ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3ec-4981-101b-9ca8-9240ce2738ae"))
+CAcroPoint : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getx,put=Putx))
+    short x;
+    __declspec(property(get=Gety,put=Puty))
+    short y;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    short Getx ( );
+    void Putx (
+        short pVal );
+    short Gety ( );
+    void Puty (
+        short pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_x (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_x (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_y (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_y (
+        /*[in]*/ short pVal ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3ee-4981-101b-9ca8-9240ce2738ae"))
+CAcroTime : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getyear,put=Putyear))
+    short year;
+    __declspec(property(get=Getmonth,put=Putmonth))
+    short month;
+    __declspec(property(get=Getdate,put=Putdate))
+    short date;
+    __declspec(property(get=Gethour,put=Puthour))
+    short hour;
+    __declspec(property(get=Getminute,put=Putminute))
+    short minute;
+    __declspec(property(get=Getsecond,put=Putsecond))
+    short second;
+    __declspec(property(get=Getmillisecond,put=Putmillisecond))
+    short millisecond;
+    __declspec(property(get=Getday,put=Putday))
+    short day;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    short Getyear ( );
+    void Putyear (
+        short pVal );
+    short Getmonth ( );
+    void Putmonth (
+        short pVal );
+    short Getdate ( );
+    void Putdate (
+        short pVal );
+    short Gethour ( );
+    void Puthour (
+        short pVal );
+    short Getminute ( );
+    void Putminute (
+        short pVal );
+    short Getsecond ( );
+    void Putsecond (
+        short pVal );
+    short Getmillisecond ( );
+    void Putmillisecond (
+        short pVal );
+    short Getday ( );
+    void Putday (
+        short pVal );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_year (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_year (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_month (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_month (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_date (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_date (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_hour (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_hour (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_minute (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_minute (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_second (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_second (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_millisecond (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_millisecond (
+        /*[in]*/ short pVal ) = 0;
+      virtual HRESULT __stdcall get_day (
+        /*[out,retval]*/ short * pVal ) = 0;
+      virtual HRESULT __stdcall put_day (
+        /*[in]*/ short pVal ) = 0;
+};
+
+struct __declspec(uuid("9b4cd3f0-4981-101b-9ca8-9240ce2738ae"))
+CAcroHiliteList : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL Add (
+        short nOffset,
+        short nLength );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Add (
+        /*[in]*/ short nOffset,
+        /*[in]*/ short nLength,
+        /*[out,retval]*/ VARIANT_BOOL * vbRet ) = 0;
+};
+
+struct __declspec(uuid("5781ded0-fb8b-11d3-9a92-005004a56d53"))
+IProvideESData : IUnknown
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT GetESObject (
+        VARIANT * eso );
+    HRESULT GetESContext (
+        VARIANT * esc );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_GetESObject (
+        VARIANT * eso ) = 0;
+      virtual HRESULT __stdcall raw_GetESContext (
+        VARIANT * esc ) = 0;
+};
+
+struct __declspec(uuid("08a9e040-9a9c-4f42-b5f5-2029b8f17e1d"))
+IAcroAXDoc : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    IDispatchPtr Application ( );
+    IDispatchPtr Document ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Application (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+      virtual HRESULT __stdcall raw_Document (
+        /*[out,retval]*/ IDispatch * * ret ) = 0;
+};
+
+struct __declspec(uuid("2dea7885-1846-411f-a41e-017a8fd778ff"))
+_AcroAXDocEventSink : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    HRESULT Stop ( );
+};
+
+struct __declspec(uuid("85de1c45-2c66-101b-b02e-04021c009402"))
+AcroApp;
+    // [ default ] interface CAcroApp
+
+struct __declspec(uuid("72498821-3203-101b-b02e-04021c009402"))
+AcroAVDoc;
+    // [ default ] interface CAcroAVDoc
+
+struct __declspec(uuid("e0e2408b-f751-4c49-8543-a11266600eb6"))
+AcroAVPageView;
+    // [ default ] interface CAcroAVPageView
+
+struct __declspec(uuid("ff76cb60-2e68-101b-b02e-04021c009402"))
+AcroPDDoc;
+    // [ default ] interface CAcroPDDoc
+
+struct __declspec(uuid("f2366405-a204-405b-a116-fce5c748e13b"))
+AcroPDPage;
+    // [ default ] interface CAcroPDPage
+
+struct __declspec(uuid("06949fda-c926-4fec-a400-0dc3f3a16096"))
+AcroPDTextSelect;
+    // [ default ] interface CAcroPDTextSelect
+
+struct __declspec(uuid("e4359bdb-59d1-4eae-a7f8-7f24c308faa4"))
+AcroPDAnnot;
+    // [ default ] interface CAcroPDAnnot
+
+struct __declspec(uuid("2eaf0840-690a-101b-9ca8-9240ce2738ae"))
+AcroPDBookmark;
+    // [ default ] interface CAcroPDBookmark
+
+struct __declspec(uuid("6d12c400-4e34-101b-9ca8-9240ce2738ae"))
+AcroRect;
+    // [ default ] interface CAcroRect
+
+struct __declspec(uuid("335e7240-6b49-101b-9ca8-9240ce2738ae"))
+AcroPoint;
+    // [ default ] interface CAcroPoint
+
+struct __declspec(uuid("6d12c401-4e34-101b-9ca8-9240ce2738ae"))
+AcroTime;
+    // [ default ] interface CAcroTime
+
+struct __declspec(uuid("6d12c402-4e34-101b-9ca8-9240ce2738ae"))
+AcroHiliteList;
+    // [ default ] interface CAcroHiliteList
+
+struct __declspec(uuid("b801ca65-a1fc-11d0-85ad-444553540000"))
+AcroAXDoc;
+    // [ default ] interface IAcroAXDoc
+    // [ default, source ] dispinterface _AcroAXDocEventSink
+
+//
+// Wrapper method implementations
+//
+
+#include "f:\hitetouchpro_work\test_cross_1\utility\win32\debug\acrobat.tli"
+
+} // namespace XPDF
+
+#pragma pack(pop)

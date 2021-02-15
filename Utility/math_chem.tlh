@@ -1,0 +1,123 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.30729.01 (3249ad5e).
+//
+// C:\Users\hht\AppData\Local\Temp\math_chem.tlh
+//
+// C++ source equivalent of Win32 type library ..\Dependencies\Bin\Release\Math_Chem.dll
+// compiler-generated file created 01/07/13 at 16:03:58 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("2b0cb95d-6487-4704-969e-24e07896d979"))
+/* LIBID */ __Math_Chem;
+struct __declspec(uuid("365f0e8a-14ef-4f3b-8a30-a6d598027672"))
+/* dispinterface */ IMathRecognizer;
+struct /* coclass */ MathRecognizer;
+struct __declspec(uuid("fe22ddbb-c7f8-4d00-8ed6-a61ef4396934"))
+/* dispinterface */ IChemRecognizer;
+struct /* coclass */ ChemRecognizer;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IMathRecognizer, __uuidof(IMathRecognizer));
+_COM_SMARTPTR_TYPEDEF(IChemRecognizer, __uuidof(IChemRecognizer));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("365f0e8a-14ef-4f3b-8a30-a6d598027672"))
+IMathRecognizer : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    long GetComputeResult (
+        float * pResult,
+        long * data );
+    long Recognize (
+        long * data,
+        BSTR * bstrRecognize,
+        VARIANT_BOOL bMathML );
+    long RecognizeAndShow (
+        long * data,
+        BSTR * bstrRecognize,
+        VARIANT_BOOL bMathML,
+        long hDC,
+        float x,
+        float y,
+        long color,
+        long fontSize );
+    VARIANT_BOOL VerifyLicenseKey (
+        BSTR * str );
+};
+
+struct __declspec(uuid("b3a6dff8-57dd-4600-94f9-4d6880500d91"))
+MathRecognizer;
+    // [ default ] dispinterface IMathRecognizer
+
+struct __declspec(uuid("fe22ddbb-c7f8-4d00-8ed6-a61ef4396934"))
+IChemRecognizer : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    // Methods:
+    long Recognize (
+        long * data,
+        BSTR * bstr );
+    long RecognizeAndShow (
+        long * data,
+        long hDC,
+        float x,
+        float y,
+        long color,
+        long fontSize );
+    long PaintResult (
+        BSTR * bstr,
+        long hDC,
+        float x,
+        float y,
+        long color,
+        long fontSize );
+    VARIANT_BOOL VerifyLicenseKey (
+        BSTR * str );
+};
+
+struct __declspec(uuid("33c8edcd-63bd-43e8-a665-6411aaf4ff87"))
+ChemRecognizer;
+    // [ default ] dispinterface IChemRecognizer
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_Math_Chem =
+    {0x2b0cb95d,0x6487,0x4704,{0x96,0x9e,0x24,0xe0,0x78,0x96,0xd9,0x79}};
+extern "C" const GUID __declspec(selectany) DIID_IMathRecognizer =
+    {0x365f0e8a,0x14ef,0x4f3b,{0x8a,0x30,0xa6,0xd5,0x98,0x02,0x76,0x72}};
+extern "C" const GUID __declspec(selectany) CLSID_MathRecognizer =
+    {0xb3a6dff8,0x57dd,0x4600,{0x94,0xf9,0x4d,0x68,0x80,0x50,0x0d,0x91}};
+extern "C" const GUID __declspec(selectany) DIID_IChemRecognizer =
+    {0xfe22ddbb,0xc7f8,0x4d00,{0x8e,0xd6,0xa6,0x1e,0xf4,0x39,0x69,0x34}};
+extern "C" const GUID __declspec(selectany) CLSID_ChemRecognizer =
+    {0x33c8edcd,0x63bd,0x43e8,{0xa6,0x65,0x64,0x11,0xaa,0xf4,0xff,0x87}};
+
+//
+// Wrapper method implementations
+//
+
+#include "math_chem.tli"
+
+#pragma pack(pop)

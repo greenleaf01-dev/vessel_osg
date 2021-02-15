@@ -1,0 +1,12 @@
+#ifndef LIB_ANIMATION_H
+#define LIB_ANIMATION_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(HHANIMATION_LIBRARY)
+#  define HHANIMATIONSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define HHANIMATIONSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LIB_ANIMATION_H

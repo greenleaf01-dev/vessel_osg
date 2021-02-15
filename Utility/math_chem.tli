@@ -1,0 +1,72 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 15.00.30729.01 (3249ad5e).
+//
+// C:\Users\hht\AppData\Local\Temp\math_chem.tli
+//
+// Wrapper implementations for Win32 type library ..\Dependencies\Bin\Release\Math_Chem.dll
+// compiler-generated file created 01/07/13 at 16:03:58 - DO NOT EDIT!
+
+#pragma once
+
+//
+// dispinterface IMathRecognizer wrapper method implementations
+//
+
+inline long IMathRecognizer::GetComputeResult ( float * pResult, long * data ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x4004\x4003", pResult, data);
+    return _result;
+}
+
+inline long IMathRecognizer::Recognize ( long * data, BSTR * bstrRecognize, VARIANT_BOOL bMathML ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x2, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x4003\x4008\x000b", data, bstrRecognize, bMathML);
+    return _result;
+}
+
+inline long IMathRecognizer::RecognizeAndShow ( long * data, BSTR * bstrRecognize, VARIANT_BOOL bMathML, long hDC, float x, float y, long color, long fontSize ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x3, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x4003\x4008\x000b\x0003\x0004\x0004\x0003\x0003", data, bstrRecognize, bMathML, hDC, x, y, color, fontSize);
+    return _result;
+}
+
+inline VARIANT_BOOL IMathRecognizer::VerifyLicenseKey ( BSTR * str ) {
+    VARIANT_BOOL _result = 0;
+    _com_dispatch_method(this, 0x4, DISPATCH_METHOD, VT_BOOL, (void*)&_result, 
+        L"\x4008", str);
+    return _result;
+}
+
+//
+// dispinterface IChemRecognizer wrapper method implementations
+//
+
+inline long IChemRecognizer::Recognize ( long * data, BSTR * bstr ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x4003\x4008", data, bstr);
+    return _result;
+}
+
+inline long IChemRecognizer::RecognizeAndShow ( long * data, long hDC, float x, float y, long color, long fontSize ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x2, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x4003\x0003\x0004\x0004\x0003\x0003", data, hDC, x, y, color, fontSize);
+    return _result;
+}
+
+inline long IChemRecognizer::PaintResult ( BSTR * bstr, long hDC, float x, float y, long color, long fontSize ) {
+    long _result = 0;
+    _com_dispatch_method(this, 0x3, DISPATCH_METHOD, VT_I4, (void*)&_result, 
+        L"\x4008\x0003\x0004\x0004\x0003\x0003", bstr, hDC, x, y, color, fontSize);
+    return _result;
+}
+
+inline VARIANT_BOOL IChemRecognizer::VerifyLicenseKey ( BSTR * str ) {
+    VARIANT_BOOL _result = 0;
+    _com_dispatch_method(this, 0x4, DISPATCH_METHOD, VT_BOOL, (void*)&_result, 
+        L"\x4008", str);
+    return _result;
+}

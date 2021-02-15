@@ -1,0 +1,1172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<Solutions>
+	<Solution ID="0" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="0"/>
+	<Solution ID="1" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="NULL" Tooltip="NULL"/>
+			<MouseMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_FLUORESCENT" Tooltip="Fluorescent Pen"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+		</Button>				
+		<Button ID="7" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_OWNFILE_PB_PLAY" Tooltip="Play"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>	
+		<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="10" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_MENU_PRINT" Tooltip="Print"/>
+		</Button>		
+	</Solution>
+	<Solution ID="2" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THIN" Tooltip="Thin"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_MIDDLE" Tooltip="Middle"/>
+		</Button>
+		<Button ID="7" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THICK" Tooltip="Thick"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save"/>
+		</Button>
+		<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="10" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+	</Solution>
+	<Solution ID="3" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="3" CustomizeBtnIndex="0,1,2," BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_CLOCK_TIMER" Tooltip="Timer/Clock"/>
+		</Button>
+		<Button ID="1" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_WRAPSCREEN" Tooltip="WrapScreen"/>
+		</Button>
+		<Button ID="2" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ROVE" Tooltip="Rover"/>
+		</Button>
+		<Button ID="7" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width"/>
+		</Button>
+		<Button ID="9" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_TEXT_KEYBOARD" Tooltip="Textbox"/>
+		</Button>
+		<Button ID="10" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENKEYBOARD" Tooltip="Screen KeyBoard"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENCAPTURER" Tooltip="ImageCapturer"/>
+		</Button>
+		<Button ID="12" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library"/>
+		</Button>
+		<Button ID="13" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+		</Button>
+		<Button ID="14" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Undo" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO"/>
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+			<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO"/>
+		</Button>
+		<Button ID="15" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="PageDown" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT"/>
+		</Button>
+		<Button ID="16" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="PageUp" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE"/>
+		</Button>
+		<Button ID="17" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Copy" Tooltip="Copy" ShortCut="ID_HH_ITEM_EDIT_COPY"/>
+		</Button>
+		<Button ID="18" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Cut" Tooltip="Cut" ShortCut="ID_HH_ITEM_EDIT_CUT"/>
+		</Button>
+		<Button ID="19" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Paste" Tooltip="Paste" ShortCut="ID_HH_ITEM_EDIT_PASTE"/>
+		</Button>
+		<Button ID="20" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Enter" Tooltip="Enter"/>
+		</Button>
+		<Button ID="21" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Tab" Tooltip="Tab"/>
+		</Button>
+		<Button ID="22" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Esc" Tooltip="Esc"/>
+		</Button>
+		<Button ID="23" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Backspace" Tooltip="Backspace"/>
+		</Button>
+		<Button ID="24" Type="ServerOnly">
+			<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate"/>
+		</Button>
+	</Solution>
+	<Solution ID="4" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="20" CustomizeBtnIndex="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19," BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" CanCustomize="1" Type="AppOnly">
+  		<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+  	</Button>
+	 	<Button ID="1" CanCustomize="1" Type="AppOnly">
+		<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" />  		
+  	</Button>
+  	<Button ID="2" CanCustomize="1" Type="AppOnly">
+  		<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide" /> 
+  	</Button>
+  	<Button ID="3" CanCustomize="1" Type="AppOnly">
+  		<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLUE" Tooltip="New Blue Slide" /> 
+  	</Button>
+  	<Button ID="4" CanCustomize="1" Type="AppOnly">
+  		<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide" /> 
+  	</Button>
+  	<Button ID="5" CanCustomize="1" Type="AppOnly">
+  		<WriteMode Type="Tools" Content="ID_SLIDE_NEW_SCREEN" Tooltip="New Screen Slide" /> 
+  	</Button>
+	  <Button ID="6" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation" /> 
+	  </Button>
+	  <Button ID="7" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THIN" Tooltip="Thin" /> 
+	  </Button>
+	  <Button ID="8" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_MIDDLE" Tooltip="Middle" /> 
+	  </Button>
+	  <Button ID="9" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THICK" Tooltip="Thick" /> 
+	  </Button>
+	  <Button ID="10" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save" /> 
+	  </Button>
+	  <Button ID="11" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+	  </Button>
+	  <Button ID="12" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_HH_EDIT_REDO1" Tooltip="Redo" /> 
+	  </Button>
+	  <Button ID="13" CanCustomize="1" Type="AppOnly">
+	  	<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+	  </Button>
+	  <Button ID="14" CanCustomize="1" Type="AppOnly">
+	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" /> 
+	  </Button>
+	  <Button ID="15" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_WRAPSCREEN" Tooltip="WrapScreen"/>
+		</Button>
+		<Button ID="16" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="17" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_ZOOMIN" Tooltip="Magnifier"/>
+		</Button>
+		<Button ID="18" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_CLOCK_TIMER" Tooltip="Timer/Clock"/>
+		</Button>
+		<Button ID="19" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENKEYBOARD" Tooltip="Screen KeyBoard"/>
+		</Button>
+		<Button ID="20" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_DEVICE_SETUP" Tooltip="Device Setup"/>
+		</Button>
+		<Button ID="21" Type="ServerOnly">
+			<Function Type="Tools" Content="StartApp" Tooltip="Start Application"/>
+		</Button>
+		<Button ID="22" Type="ServerOnly">
+  		<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate" /> 
+ 	 </Button>
+	</Solution>
+	<Solution ID="5" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="3">
+		<Button ID="0" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_WRAPSCREEN" Tooltip="WrapScreen"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="3" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_ZOOMIN" Tooltip="Magnifier"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="4" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENCAPTURER" Tooltip="ImageCapturer"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="5" Type="ServerOnly">
+  		<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate" /> 
+ 	 	</Button>
+	</Solution>	
+	<Solution ID="6" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="1" CustomizeBtnIndex="13," BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+ 	 	<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save" />
+ 			<MouseMode Type="Keyboard" Content="Ctrl+S" Tooltip="Save" ShortCut="ID_HH_FILE_SAVE" />
+ 	 	</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_BACKCOLOR_CHANGE" Tooltip="Change Background Color" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+		<Button ID="3" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="IDR_SLIDE_NEW" Tooltip="New Slide" />
+			<MouseMode Type="Keyboard" Content="Ctrl+N" Tooltip="New" ShortCut="ID_HH_FILE_NEW"/>
+		</Button>
+		<Button ID="4" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE" /> 
+		</Button>
+		<Button ID="5" Type="AppOnly" AppModeDifferent="1">
+ 			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT" />
+ 	 	</Button>
+ 	 	<Button ID="6" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_PRESET_PROPERTY" Tooltip="Pre Pen" /> 
+ 	 	</Button>
+ 	 	<Button ID="7" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width"/>
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select" />
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+  		<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO" /> 
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+  		<MouseMode Type="Keyboard" Content="Delete" Tooltip="Delete" ShortCut="ID_HH_ITEM_EDIT_DELETE" /> 
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" /> 
+ 	 	</Button>
+ 	 	<Button ID="12" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_TEXT_KEYBOARD" Tooltip="Textbox" /> 
+ 			<MouseMode Type="Tools" Content="ID_TOOL_HANDWRITINGRECO" Tooltip="Handwriting Recognizer" /> 
+ 	 	</Button>
+ 		<Button ID="13" CanCustomize="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="Spotlight" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+	 	<Button ID="14" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE"/>
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ALL" Tooltip="Clear All" />
+ 			<MouseMode Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE" />
+ 	 	</Button>
+	</Solution>
+	<Solution ID="7" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="3" CustomizeBtnIndex="0,1,2," BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_CLOCK_TIMER" Tooltip="Timer/Clock"/>
+		</Button>
+		<Button ID="1" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_WRAPSCREEN" Tooltip="WrapScreen"/>
+		</Button>
+		<Button ID="2" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ROVE" Tooltip="Rover"/>
+		</Button>
+		<Button ID="7" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width"/>
+		</Button>
+		<Button ID="9" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_TEXT_KEYBOARD" Tooltip="Textbox"/>
+		</Button>
+		<Button ID="10" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENKEYBOARD" Tooltip="Screen KeyBoard"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENCAPTURER" Tooltip="ImageCapturer"/>
+		</Button>
+		<Button ID="12" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library"/>
+		</Button>
+		<Button ID="13" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+		</Button>
+		<Button ID="14" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Undo" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO"/>
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+			<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO"/>
+		</Button>
+		<Button ID="15" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="PageDown" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT"/>
+		</Button>
+		<Button ID="16" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="PageUp" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE"/>
+		</Button>
+		<Button ID="17" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Copy" Tooltip="Copy" ShortCut="ID_HH_ITEM_EDIT_COPY"/>
+		</Button>
+		<Button ID="18" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Cut" Tooltip="Cut" ShortCut="ID_HH_ITEM_EDIT_CUT"/>
+		</Button>
+		<Button ID="19" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Paste" Tooltip="Paste" ShortCut="ID_HH_ITEM_EDIT_PASTE"/>
+		</Button>
+		<Button ID="20" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Enter" Tooltip="Enter"/>
+		</Button>
+		<Button ID="21" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Tab" Tooltip="Tab"/>
+		</Button>
+		<Button ID="22" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Esc" Tooltip="Esc"/>
+		</Button>
+		<Button ID="23" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Backspace" Tooltip="Backspace"/>
+		</Button>
+		<Button ID="24" Type="ServerOnly">
+			<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate"/>
+		</Button>
+	</Solution>	
+	<Solution ID="8" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" Type="ServerOnly">
+			<Function Type="Tools" Content="WINDOWONOFF" Tooltip="Window On/Off"/>
+		</Button>
+		<Button ID="1" Type="ServerOnly">
+			<Function Type="Tools" Content="WINDOWSWITCH" Tooltip="Window Switch"/>
+		</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+ 	 	<Button ID="3" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save" />
+ 			<MouseMode Type="Keyboard" Content="Ctrl+S" Tooltip="Save" ShortCut="ID_HH_FILE_SAVE" />
+ 	 	</Button>
+		<Button ID="4" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_BACKCOLOR_CHANGE" Tooltip="Change Background Color" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+		<Button ID="5" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="IDR_SLIDE_NEW" Tooltip="New Slide" />
+			<MouseMode Type="Keyboard" Content="Ctrl+N" Tooltip="New" ShortCut="ID_HH_FILE_NEW"/>
+		</Button>
+		<Button ID="6" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE" /> 
+		</Button>
+		<Button ID="7" Type="AppOnly" AppModeDifferent="1">
+ 			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT" />
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_PRESET_PROPERTY" Tooltip="Pre Pen" /> 
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width" />
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select" />
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+  		<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO" /> 
+ 	 	</Button>
+ 	 	<Button ID="12" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+  		<MouseMode Type="Keyboard" Content="Delete" Tooltip="Delete" ShortCut="ID_HH_ITEM_EDIT_DELETE" /> 
+ 	 	</Button>
+ 	 	<Button ID="13" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" /> 
+ 	 	</Button>
+ 	 	<Button ID="14" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_TEXT_KEYBOARD" Tooltip="Textbox" /> 
+ 			<MouseMode Type="Tools" Content="ID_TOOL_HANDWRITINGRECO" Tooltip="Handwriting Recognizer" /> 
+ 	 	</Button>
+	 	<Button ID="15" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE"/>
+ 	 		<WriteMode Type="Tools" Content="ID_SLIDE_DELETE" Tooltip="Delete Slide" />
+ 			<MouseMode Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE" />
+ 	 	</Button>
+	</Solution>	
+	<Solution ID="9" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="1" CustomizeBtnIndex="12," BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" Type="ServerOnly">
+			<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate"/>
+		</Button>
+		<Button ID="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP" Tooltip="Switch to Desktop" />
+		</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_SCREEN" Tooltip="New Screen Slide" /> 
+		</Button>
+ 	 	<Button ID="3" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_UISTATE_WRITE_PANEL" Tooltip="Switch to WhiteBoard" />
+ 	 	</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide" /> 
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" />
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+		</Button>
+		<Button ID="7" Type="AppOnly">
+ 			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen"/>
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_FLUORESCENT" Tooltip="Fluorescent pen" /> 
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_SLIDE_PLAYBACK" Tooltip="Slide playback" />
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_MENU_PRINT" Tooltip="Print" />
+ 	 	</Button>
+ 	 	<Button ID="12"  CanCustomize="1" Type="AppOnly">
+ 	 		<WriteMode Type="Internet" Content="www.heutink-ict.nl" Tooltip="www.heutink-ict.nl" />  
+ 	 	</Button>
+	</Solution>
+	<Solution ID="10" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="1" CustomizeBtnIndex="2," BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" Type="ServerOnly">
+			<Function Type="Tools" Content="WINDOWONOFF" Tooltip="Window On/Off"/>
+		</Button>
+		<Button ID="1" Type="ServerOnly">
+			<Function Type="Tools" Content="WINDOWSWITCH" Tooltip="Window Switch"/>
+		</Button>
+		<Button ID="2" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ROVE" Tooltip="Rover"/>
+		</Button>
+		<Button ID="7" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width"/>
+		</Button>
+		<Button ID="9" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_TEXT_KEYBOARD" Tooltip="Textbox"/>
+		</Button>
+		<Button ID="10" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENKEYBOARD" Tooltip="Screen KeyBoard"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENCAPTURER" Tooltip="ImageCapturer"/>
+		</Button>
+		<Button ID="12" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library"/>
+		</Button>
+		<Button ID="13" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+		</Button>
+		<Button ID="14" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Undo" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO"/>
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+			<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO"/>
+		</Button>
+		<Button ID="15" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="PageDown" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT"/>
+		</Button>
+		<Button ID="16" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="PageUp" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE"/>
+		</Button>
+		<Button ID="17" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Copy" Tooltip="Copy" ShortCut="ID_HH_ITEM_EDIT_COPY"/>
+		</Button>
+		<Button ID="18" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Cut" Tooltip="Cut" ShortCut="ID_HH_ITEM_EDIT_CUT"/>
+		</Button>
+		<Button ID="19" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Paste" Tooltip="Paste" ShortCut="ID_HH_ITEM_EDIT_PASTE"/>
+		</Button>
+		<Button ID="20" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Enter" Tooltip="Enter"/>
+		</Button>
+		<Button ID="21" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Tab" Tooltip="Tab"/>
+		</Button>
+		<Button ID="22" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Esc" Tooltip="Esc"/>
+		</Button>
+		<Button ID="23" Type="ServerOnly">
+			<Function Type="Keyboard" Content="Backspace" Tooltip="Backspace"/>
+		</Button>
+		<Button ID="24" Type="ServerOnly">
+			<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate"/>
+		</Button>
+	</Solution>
+	<Solution ID="11" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_BACKCOLOR_CHANGE" Tooltip="Change Background Color" />
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_DELETE" Tooltip="Delete Slide" />
+		</Button>
+		<Button ID="7" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ROVE" Tooltip="Rover"/>
+		</Button>
+		<Button ID="9" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select"/>
+		</Button>
+		<Button ID="10" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save"/>
+		</Button>
+	</Solution>
+	<Solution ID="12" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="15" CustomizeBtnIndex="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14," BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select"/>
+		</Button>
+		<Button ID="1" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="2" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+		</Button>
+		<Button ID="3" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" />
+		</Button>
+		<Button ID="4" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen"/>
+		</Button>
+		<Button ID="5" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_BRUSH" Tooltip="Brush"/>
+		</Button>
+		<Button ID="6" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_FLUORESCENT" Tooltip="Highlight Pen" />
+		</Button>
+		<Button ID="7" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENCOLOR" Tooltip="设置笔色"/>
+		</Button>
+		<Button ID="8" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+		</Button>
+		<Button ID="9" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_ZOOMIN" Tooltip="Magnifier"/>
+		</Button>
+		<Button ID="10" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="11" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>
+		<Button ID="12" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ZOOMIN" Tooltip="Zoom in"/>
+		</Button>
+		<Button ID="13" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+		</Button>
+		<Button ID="14" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_HANDWRITINGRECO" Tooltip="Handwriting Recognizer"/>
+		</Button>
+	</Solution>
+	<Solution ID="15" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="2" CustomizeBtnIndex="12,13," BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+ 	 	<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save" />
+ 			<MouseMode Type="Keyboard" Content="Ctrl+S" Tooltip="Save" ShortCut="ID_HH_FILE_SAVE" />
+ 	 	</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_BACKCOLOR_CHANGE" Tooltip="Change Background Color" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+		<Button ID="3" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="IDR_SLIDE_NEW" Tooltip="New Slide" />
+			<MouseMode Type="Keyboard" Content="Ctrl+N" Tooltip="New" ShortCut="ID_HH_FILE_NEW"/>
+		</Button>
+		<Button ID="4" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT" />
+			
+		</Button>
+		<Button ID="5" Type="AppOnly" AppModeDifferent="1">
+ 			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE" /> 
+ 	 	</Button>
+ 	 	<Button ID="6" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_PRESET_PROPERTY" Tooltip="Pre Pen" /> 
+ 	 	</Button>
+ 	 	<Button ID="7" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTAL" Tooltip="Switch to Pen Toolbar" />
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select" />
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+  		<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO" /> 
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+  		<MouseMode Type="Keyboard" Content="Delete" Tooltip="Delete" ShortCut="ID_HH_ITEM_EDIT_DELETE" /> 
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" /> 
+ 	 	</Button>
+ 	 	<Button ID="12" CanCustomize="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ZOOMOUT" Tooltip="Zoom Out" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+ 	 	</Button>
+ 		<Button ID="13" CanCustomize="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_TRANSFORMER_ZOOMIN" Tooltip="Zoom in" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+	 	<Button ID="14" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE"/>
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ALL" Tooltip="Clear All" />
+ 			<MouseMode Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE" />
+ 	 	</Button>
+	</Solution>
+	<Solution ID="100" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="5" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THIN" Tooltip="Thin"/>
+		</Button>
+		<Button ID="6" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_MIDDLE" Tooltip="Middle"/>
+		</Button>
+		<Button ID="7" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THICK" Tooltip="Thick"/>
+		</Button>
+		<Button ID="8" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save"/>
+		</Button>
+		<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="10" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser"/>
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="11" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode"/>
+		</Button>	
+		<Button ID="12" Type="Compound" AppModeDifferent="1">
+			<Function Type="Mouse" Content="DoubleClick" Tooltip="Double Click"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="MouseDoubleClick" Tooltip="Double Click"/>
+		</Button>	
+		<Button ID="13" Type="Compound" AppModeDifferent="1">
+			<Function Type="Mouse" Content="RightClick" Tooltip="Right Click"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="MouseRightClick" Tooltip="Right Click"/>
+		</Button>
+		<Button ID="14" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide"/>
+		</Button>
+		<Button ID="15" Type="Compound" AppModeDifferent="1">
+			<Function Type="NULL" Content="NULL" Tooltip="NULL"/>
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="16" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" />
+		</Button>
+	</Solution>
+	<Solution ID="101" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="20" CustomizeBtnIndex="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19," BtnNumPerRowInEditorDlg="5">
+		<Button ID="0" CanCustomize="1" Type="AppOnly">
+  			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" /> 
+  		</Button>
+	 	<Button ID="1" CanCustomize="1" Type="AppOnly">
+  			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+  		</Button>
+  		<Button ID="2" CanCustomize="1" Type="AppOnly">
+  			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide" /> 
+  		</Button>
+  		<Button ID="3" CanCustomize="1" Type="AppOnly">
+  			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLUE" Tooltip="New Blue Slide" /> 
+  		</Button>
+  		<Button ID="4" CanCustomize="1" Type="AppOnly">
+  			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide" /> 
+  		</Button>
+  		<Button ID="5" CanCustomize="1" Type="AppOnly">
+  			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_SCREEN" Tooltip="New Screen Slide" /> 
+  		</Button>
+	  	<Button ID="6" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation" /> 
+	  	</Button>
+	  	<Button ID="7" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THIN" Tooltip="Thin" /> 
+	  	</Button>
+	  	<Button ID="8" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_MIDDLE" Tooltip="Middle" /> 
+	  	</Button>
+	  	<Button ID="9" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THICK" Tooltip="Thick" /> 
+	  	</Button>
+	  	<Button ID="10" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save" /> 
+	  	</Button>
+	  	<Button ID="11" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+	  	</Button>
+	  	<Button ID="12" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_HH_EDIT_REDO1" Tooltip="Redo" /> 
+	  	</Button>
+	  	<Button ID="13" CanCustomize="1" Type="AppOnly">
+	  		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+	  	</Button>
+	  	<Button ID="14" CanCustomize="1" Type="AppOnly">
+	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" /> 
+	  	</Button>
+	  	<Button ID="15" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_WRAPSCREEN" Tooltip="WrapScreen"/>
+		</Button>
+		<Button ID="16" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="SpotLight"/>
+		</Button>
+		<Button ID="17" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_ZOOMIN" Tooltip="Magnifier"/>
+		</Button>
+		<Button ID="18" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_CLOCK_TIMER" Tooltip="Timer/Clock"/>
+		</Button>
+		<Button ID="19" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_TOOL_SCREENKEYBOARD" Tooltip="Screen KeyBoard"/>
+		</Button>
+		<Button ID="20" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_HH_DEVICE_SETUP" Tooltip="Device Setup"/>
+		</Button>
+		<Button ID="21" Type="ServerOnly">
+			<Function Type="Tools" Content="StartApp" Tooltip="Start Application"/>
+		</Button>
+		<Button ID="22" Type="ServerOnly">
+  			<Function Type="Tools" Content="Calibrate" Tooltip="Calibrate" /> 
+ 	 	</Button>
+		<Button ID="23" Type="Compound" AppModeDifferent="1">
+			<Function Type="Mouse" Content="DoubleClick" Tooltip="Double Click"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="MouseDoubleClick" Tooltip="Double Click"/>
+		</Button>	
+		<Button ID="24" Type="Compound" AppModeDifferent="1">
+			<Function Type="Mouse" Content="RightClick" Tooltip="Right Click"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="MouseRightClick" Tooltip="Right Click"/>
+		</Button>
+		<Button ID="25" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide"/>
+		</Button>
+		<Button ID="26" Type="Compound" AppModeDifferent="1">
+			<Function Type="NULL" Content="NULL" Tooltip="NULL"/>
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="27" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" />
+		</Button>
+	</Solution>
+	<Solution ID="102" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="3">
+		<Button ID="0" Type="Compound" AppModeDifferent="1">
+			<Function Type="Mouse" Content="DoubleClick" Tooltip="Double Click"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+			<MouseMode Type="Keyboard" Content="MouseDoubleClick" Tooltip="Double Click"/>
+		</Button>	
+		<Button ID="1" Type="Compound" AppModeDifferent="1">
+			<Function Type="Mouse" Content="RightClick" Tooltip="Right Click"/>
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+			<MouseMode Type="Keyboard" Content="MouseRightClick" Tooltip="Right Click"/>
+		</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide"/>
+		</Button>
+		<Button ID="3" Type="Compound" AppModeDifferent="1">
+			<Function Type="NULL" Content="NULL" Tooltip="NULL"/>
+			<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" />
+		</Button>
+	</Solution>
+	<Solution ID="103" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_THUMBNAIL_BIRDEYE" Tooltip="Bird's-eye" />
+		</Button>
+ 	 	<Button ID="1" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" />
+ 	 	</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" />
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen" />
+		</Button>
+		<Button ID="5" Type="AppOnly" AppModeDifferent="1">
+ 			<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL" /> 
+ 	 	</Button>
+ 	 	<Button ID="6" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENCOLOR" Tooltip="Set Pen Color" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL" /> 
+ 	 	</Button>
+ 	 	<Button ID="7" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" />
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_SLIDE_NEW_SCREEN" Tooltip="New Screen Slide" />
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="IDR_HH_FILE_EXPORT" Tooltip="Export" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL" />
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" />
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_SYSTEM_RETURN_DESKTOP" Tooltip="Switch Mode" /> 
+ 	 	</Button>
+	</Solution>
+	<Solution ID="104" Symmetry="1" LeftSideStart="0" RightSideStart="50" BottomSideStart= "100" CustomizeBtnNumber="0" CustomizeBtnIndex="" BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly">
+			<WriteMode Type="Tools" Content="IDR_PRESCHOOLEDU_FILE" Tooltip="Start" />
+		</Button>
+ 	 	<Button ID="1" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="IDR_SLIDE_NEW" Tooltip="New Slide" />
+ 	 	</Button>
+		<Button ID="2" Type="AppOnly">
+			<WriteMode Type="Tools" Content="IDR_SLIDES_PROPERTY" Tooltip="Slide Property" />
+		</Button>
+		<Button ID="3" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+		</Button>
+		<Button ID="4" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" />
+		</Button>
+		<Button ID="5" Type="AppOnly">
+ 			<WriteMode Type="Tools" Content="IDR_SLIDES_EFFECTS" Tooltip="Slide Effects" />
+ 	 	</Button>
+ 	 	<Button ID="6" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="IDR_PRESCHOOLEDU_RESOURCE" Tooltip="Resources" />
+ 	 	</Button>
+ 	 	<Button ID="7" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select" />
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_PIXEL" Tooltip="Pixel eraser" />
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly">
+			<WriteMode Type="Tools" Content="IDR_PRESCHOOLEDU_SUB_TOOLS" Tooltip="Tool" />
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch" />
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+ 	 	</Button>
+ 	 	<Button ID="12" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_PEN_PROPERTY" Tooltip="Pen Property" /> 
+ 	 	</Button> 	 	
+ 	 	<Button ID="100" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_PEN_TUBE" Tooltip="Pen Tube" /> 
+ 	 	</Button>	
+ 	 	<Button ID="101" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_PIXEL" Tooltip="Pixel eraser" /> 
+ 	 	</Button>	
+ 	 	<Button ID="102" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_PALETTE" Tooltip="Palette" /> 
+ 	 	</Button>	
+ 	 	<Button ID="103" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Smooth pen" /> 
+ 	 	</Button>	
+ 	 	<Button ID="104" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_BRUSH" Tooltip="Brush" /> 
+ 	 	</Button>
+ 	 	<Button ID="105" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_FLUORESCENT" Tooltip="Highlight Pen" /> 
+ 	 	</Button>	
+ 	 	<Button ID="106" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_LASER" Tooltip="Laser pen" /> 
+ 	 	</Button>
+ 	 	<Button ID="107" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_TEXTURE" Tooltip="Texture pen" /> 
+ 	 	</Button>	
+ 	 	<Button ID="108" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_PALETTE" Tooltip="Palette" /> 
+ 	 	</Button>
+ 	 	<Button ID="109" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_PIXEL" Tooltip="Pixel eraser" /> 
+ 	 	</Button>	
+ 	 	<Button ID="110" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_PEN_TUBE" Tooltip="Pen Tube" /> 
+ 	 	</Button>
+	</Solution>
+	<Solution ID="200" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="6" CustomizeBtnIndex="0,1,2,3,4,5," BtnNumPerRowInEditorDlg="3">
+		<Button ID="0" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide"/>
+		</Button>
+		<Button ID="1" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide"/>
+		</Button>
+		<Button ID="2" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_WHITE" Tooltip="New White Slide"/>
+		</Button>
+		<Button ID="3" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_BLACK" Tooltip="New Black Slide"/>
+		</Button>
+		<Button ID="4" CanCustomize="1" Type="AppOnly">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation"/>
+		</Button>
+		<Button ID="5" CanCustomize="1" Type="AppOnly">
+  		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_WIDTH_THIN" Tooltip="Thin" /> 
+ 	 	</Button>
+	</Solution>
+	<Solution ID="19" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="1" CustomizeBtnIndex="13," BtnNumPerRowInEditorDlg="4">
+		<Button ID="0" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_ITEM_IMAGE_FROMLIB" Tooltip="Image Library" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+ 	 	<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_FILE_SAVE" Tooltip="Save" />
+ 			<MouseMode Type="Keyboard" Content="Ctrl+S" Tooltip="Save" ShortCut="ID_HH_FILE_SAVE" />
+ 	 	</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_BACKCOLOR_CHANGE" Tooltip="Change Background Color" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+		<Button ID="3" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="IDR_SLIDE_NEW" Tooltip="New Slide" />
+			<MouseMode Type="Keyboard" Content="Ctrl+N" Tooltip="New" ShortCut="ID_HH_FILE_NEW"/>
+		</Button>
+		<Button ID="4" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE" /> 
+		</Button>
+		<Button ID="5" Type="AppOnly" AppModeDifferent="1">
+ 			<WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" /> 
+  		<MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT" />
+ 	 	</Button>
+ 	 	<Button ID="6" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_STROKE_PRESET_PROPERTY" Tooltip="Pre Pen" /> 
+ 	 	</Button>
+ 	 	<Button ID="7" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_RENDERPROPERTY_TOTALWNDPENWIDTH" Tooltip="Set Pen Width"/>
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="8" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_SELECT" Tooltip="Select" />
+ 	 		<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/> 
+ 	 	</Button>
+ 	 	<Button ID="9" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_HH_EDIT_UNDO" Tooltip="Undo" /> 
+  		<MouseMode Type="Keyboard" Content="Ctrl+Z" Tooltip="Undo" ShortCut="ID_HH_EDIT_UNDO" /> 
+ 	 	</Button>
+ 	 	<Button ID="10" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ITEM" Tooltip="Region Eraser" /> 
+  		<MouseMode Type="Keyboard" Content="Delete" Tooltip="Delete" ShortCut="ID_HH_ITEM_EDIT_DELETE" /> 
+ 	 	</Button>
+ 	 	<Button ID="11" Type="AppOnly">
+ 	 		<WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" /> 
+ 	 	</Button>
+ 	 	<Button ID="12" Type="AppOnly" AppModeDifferent="1">
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_TEXT_KEYBOARD" Tooltip="Textbox" /> 
+ 			<MouseMode Type="Tools" Content="ID_TOOL_HANDWRITINGRECO" Tooltip="Handwriting Recognizer" /> 
+ 	 	</Button>
+ 		<Button ID="13" CanCustomize="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="Spotlight" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+	 	<Button ID="14" Type="Compound" AppModeDifferent="1">
+			<Function Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE"/>
+ 	 		<WriteMode Type="Tools" Content="ID_ITEM_DELETE_ALL" Tooltip="Clear All" />
+ 			<MouseMode Type="Keyboard" Content="Alt+F4" Tooltip="Close" ShortCut="ID_HH_FILE_CLOSE" />
+ 	 	</Button>
+	</Solution>
+        <Solution ID="20" Symmetry="1" LeftSideStart="0" RightSideStart="50" CustomizeBtnNumber="1" CustomizeBtnIndex="0," BtnNumPerRowInEditorDlg="4">
+                <Button ID="0" CanCustomize="1" Type="AppOnly" AppModeDifferent="1">
+                        <WriteMode Type="Tools" Content="ID_TOOL_SPOTLIGHT" Tooltip="Spotlight" />
+			<MouseMode Type="Keyboard" Content="NULL" Tooltip="NULL" ShortCut="NULL"/>
+		</Button>
+ 	 	<Button ID="1" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_HH_FILE_SAVEAS" Tooltip="Save As" />
+			<MouseMode Type="Keyboard" Content="Ctrl+S" Tooltip="Save" ShortCut="ID_HH_FILE_SAVE" />
+ 	 	</Button>
+		<Button ID="2" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_ITEM_VISUALIZER" Tooltip="Visualizer" />
+		</Button>
+		<Button ID="3" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_TOOL_HITEBRIDGE" Tooltip="Hitebridge" />
+		</Button>
+		<Button ID="4" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="IDR_SLIDE_NEW" Tooltip="New Slide" />
+			<MouseMode Type="Keyboard" Content="Ctrl+N" Tooltip="New" ShortCut="ID_HH_FILE_NEW"/>
+		</Button>
+		<Button ID="5" Type="AppOnly" AppModeDifferent="1">
+			<WriteMode Type="Tools" Content="ID_SLIDE_NEW_TRANSPARENT" Tooltip="Screen Annotation" />
+		</Button>
+                <Button ID="7" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_ITEM_STROKE_SELECT" Tooltip="Select" />
+                            </Button>
+                <Button ID="8" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_ITEM_STROKE_SMOOTH" Tooltip="Pen" />
+                            </Button>
+                <Button ID="9" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_ITEM_DELETE_PIXEL" Tooltip="Eraser" />
+                                    <MouseMode Type="Keyboard" Content="Delete" Tooltip="Delete" ShortCut="ID_HH_ITEM_EDIT_DELETE" />
+                            </Button>
+                <Button ID="10" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_SLIDE_PRE" Tooltip="Previous Slide" />
+                                    <MouseMode Type="Keyboard" Content="Page Up" Tooltip="PageUp" ShortCut="ID_SLIDE_PRE" />
+                            </Button>
+                <Button ID="11" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_SLIDE_NEXT" Tooltip="Next Slide" />
+                                    <MouseMode Type="Keyboard" Content="Page Down" Tooltip="PageDown" ShortCut="ID_SLIDE_NEXT" />
+                            </Button>
+                <Button ID="13" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_UISTATE_DESKTOP_RETURN" Tooltip="Switch Mode" />
+                            </Button>
+                <Button ID="14" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_TOOLS" Tooltip="Tools" />
+                            </Button>
+                <Button ID="15" Type="AppOnly" AppModeDifferent="1">
+                                    <WriteMode Type="Tools" Content="ID_EXIT_APP" Tooltip="Exit Application" />
+                            </Button>
+	</Solution>
+</Solutions>
+<Strings>
+</Strings>
+</Root>

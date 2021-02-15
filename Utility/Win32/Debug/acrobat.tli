@@ -1,0 +1,1256 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (da45adbc).
+//
+// f:\hitetouchpro_work\test_cross_1\utility\win32\debug\acrobat.tli
+//
+// Wrapper implementations for Win32 type library ./ImportFile/Acrobat.dll
+// compiler-generated file created 03/06/18 at 09:29:26 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface CAcroApp wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroApp::Exit ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Exit(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::Hide ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Hide(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::Show ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Show(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::CloseAllDocs ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CloseAllDocs(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::MenuItemExecute ( _bstr_t szMenuItemName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MenuItemExecute(szMenuItemName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroApp::GetActiveTool ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetActiveTool(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroApp::SetActiveTool ( _bstr_t szButtonName, long bPersistent ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetActiveTool(szButtonName, bPersistent, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::ToolButtonRemove ( _bstr_t szButtonName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ToolButtonRemove(szButtonName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::ToolButtonIsEnabled ( _bstr_t szButtonName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ToolButtonIsEnabled(szButtonName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::MenuItemRemove ( _bstr_t szMenuItemName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MenuItemRemove(szMenuItemName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::MenuItemIsEnabled ( _bstr_t szMenuItemName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MenuItemIsEnabled(szMenuItemName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::MenuItemIsMarked ( _bstr_t szMenuItemName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MenuItemIsMarked(szMenuItemName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroApp::GetNumAVDocs ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetNumAVDocs(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroApp::GetAVDoc ( long lIndex ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetAVDoc(lIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroApp::GetActiveDoc ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetActiveDoc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t CAcroApp::GetLanguage ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetLanguage(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroApp::Lock ( _bstr_t szLockedBy ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Lock(szLockedBy, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::Unlock ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Unlock(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::SetPreference ( short nType, long lValue ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetPreference(nType, lValue, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroApp::GetPreference ( short nType ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetPreference(nType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::Maximize ( long vbMaximize ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Maximize(vbMaximize, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::SetFrame ( IDispatch * pRect ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetFrame(pRect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroApp::GetFrame ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetFrame(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroApp::Minimize ( long vbMinimize ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Minimize(vbMinimize, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::Restore ( long vbRestore ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Restore(vbRestore, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroApp::UnlockEx ( _bstr_t sLockedBy ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_UnlockEx(sLockedBy, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroApp::GetInterface ( _bstr_t name ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetInterface(name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroApp::SetPreferenceEx ( short nType, VARIANT * val ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetPreferenceEx(nType, val, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t CAcroApp::GetPreferenceEx ( short nType ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetPreferenceEx(nType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+//
+// interface CAcroAVDoc wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroAVDoc::Open ( _bstr_t szFullPath, _bstr_t szTempTitle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Open(szFullPath, szTempTitle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroAVDoc::GetPDDoc ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetPDDoc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroAVDoc::GetAVPageView ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetAVPageView(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroAVDoc::SetViewMode ( long nType ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetViewMode(nType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::__FindText ( _bstr_t szText, long bCaseSensitive, long bWholeWordsOnly, long bReset ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw___FindText(szText, bCaseSensitive, bWholeWordsOnly, bReset, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::Close ( long bNoSave ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Close(bNoSave, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroAVDoc::GetViewMode ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetViewMode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::PrintPages ( long nFirstPage, long nLastPage, long nPSLevel, long bBinaryOk, long bShrinkToFit ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PrintPages(nFirstPage, nLastPage, nPSLevel, bBinaryOk, bShrinkToFit, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::ClearSelection ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ClearSelection(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::BringToFront ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_BringToFront(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroAVDoc::GetTitle ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetTitle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroAVDoc::Maximize ( long vbMaximize ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Maximize(vbMaximize, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::SetTitle ( _bstr_t szTitle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetTitle(szTitle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::OpenInWindow ( _bstr_t szFullPath, short hWnd ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_OpenInWindow(szFullPath, hWnd, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::SetTextSelection ( IDispatch * iAcroPDTextSelect ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetTextSelection(iAcroPDTextSelect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::ShowTextSelect ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ShowTextSelect(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::SetFrame ( IDispatch * rect ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetFrame(rect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroAVDoc::GetFrame ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetFrame(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroAVDoc::IsValid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsValid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::OpenInWindowEx ( _bstr_t szFullPath, long hWnd, long openFlgs, long UseOpenParams, long pgNum, short pageMode, short ZoomType, long Zoom, short Top, short Left ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_OpenInWindowEx(szFullPath, hWnd, openFlgs, UseOpenParams, pgNum, pageMode, ZoomType, Zoom, Top, Left, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::PrintPagesSilent ( long nFirstPage, long nLastPage, long nPSLevel, long bBinaryOk, long bShrinkToFit ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PrintPagesSilent(nFirstPage, nLastPage, nPSLevel, bBinaryOk, bShrinkToFit, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::PrintPagesEx ( long nFirstPage, long nLastPage, long nPSLevel, long bBinaryOk, long bShrinkToFit, long bReverse, long bFarEastFontOpt, long bEmitHalftones, long iPageOption ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PrintPagesEx(nFirstPage, nLastPage, nPSLevel, bBinaryOk, bShrinkToFit, bReverse, bFarEastFontOpt, bEmitHalftones, iPageOption, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVDoc::PrintPagesSilentEx ( long nFirstPage, long nLastPage, long nPSLevel, long bBinaryOk, long bShrinkToFit, long bReverse, long bFarEastFontOpt, long bEmitHalftones, long iPageOption ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_PrintPagesSilentEx(nFirstPage, nLastPage, nPSLevel, bBinaryOk, bShrinkToFit, bReverse, bFarEastFontOpt, bEmitHalftones, iPageOption, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroAVDoc::GetParentPDDoc ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetParentPDDoc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+//
+// interface CAcroAVPageView wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroAVPageView::GoTo ( long nPage ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GoTo(nPage, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVPageView::ZoomTo ( short nType, short nScale ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ZoomTo(nType, nScale, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVPageView::ScrollTo ( short nX, short nY ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ScrollTo(nX, nY, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVPageView::ReadPageUp ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ReadPageUp(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVPageView::ReadPageDown ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ReadPageDown(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVPageView::DoGoBack ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DoGoBack(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroAVPageView::DoGoForward ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DoGoForward(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroAVPageView::GetAVDoc ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetAVDoc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroAVPageView::GetPage ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetPage(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroAVPageView::GetDoc ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetDoc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long CAcroAVPageView::GetZoom ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetZoom(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline short CAcroAVPageView::GetZoomType ( ) {
+    short _result = 0;
+    HRESULT _hr = raw_GetZoomType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroAVPageView::GetPageNum ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetPageNum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroAVPageView::PointToDevice ( IDispatch * point ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_PointToDevice(point, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroAVPageView::DevicePointToPage ( IDispatch * point ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_DevicePointToPage(point, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroAVPageView::GetAperture ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetAperture(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+//
+// interface CAcroPDDoc wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroPDDoc::Open ( _bstr_t szFullPath ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Open(szFullPath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::Close ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Close(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::InsertPages ( long nInsertPageAfter, IDispatch * iPDDocSource, long lStartPage, long lNumPages, long lInsertFlags ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_InsertPages(nInsertPageAfter, iPDDocSource, lStartPage, lNumPages, lInsertFlags, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::ReplacePages ( long nStartPage, IDispatch * iPDDocSource, long lStartSourcePage, long lNumPages, long bMergeTextAnnotations ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ReplacePages(nStartPage, iPDDocSource, lStartSourcePage, lNumPages, bMergeTextAnnotations, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::DeletePages ( long nStartPage, long nEndPage ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeletePages(nStartPage, nEndPage, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroPDDoc::GetNumPages ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetNumPages(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::Create ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Create(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDDoc::GetInfo ( _bstr_t sInfoKey ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetInfo(sInfoKey, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDDoc::SetInfo ( _bstr_t sInfoKey, _bstr_t szBuffer ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetInfo(sInfoKey, szBuffer, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::DeleteThumbs ( long lStartPage, long lEndPage ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DeleteThumbs(lStartPage, lEndPage, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::MovePage ( long lMoveAfterThisPage, long lPageToMove ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_MovePage(lMoveAfterThisPage, lPageToMove, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDDoc::GetFileName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetFileName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long CAcroPDDoc::GetPageMode ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetPageMode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::SetPageMode ( long nPageMode ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetPageMode(nPageMode, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::CreateThumbs ( long lFirstPage, long lLastPage ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CreateThumbs(lFirstPage, lLastPage, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDDoc::CreateTextSelect ( long lPage, IDispatch * iAcroRect ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_CreateTextSelect(lPage, iAcroRect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroPDDoc::AcquirePage ( long nPage ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_AcquirePage(nPage, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline _bstr_t CAcroPDDoc::GetInstanceID ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetInstanceID(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t CAcroPDDoc::GetPermanentID ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetPermanentID(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long CAcroPDDoc::GetFlags ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetFlags(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::SetFlags ( long nFlags ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetFlags(nFlags, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDDoc::OpenAVDoc ( _bstr_t sTempTitle ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_OpenAVDoc(sTempTitle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDDoc::Save ( short nType, _bstr_t sFullPath ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Save(nType, sFullPath, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::ClearFlags ( long nFlags ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ClearFlags(nFlags, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::SetOpenInfo ( long pgNum, short viewMode, _bstr_t magnification ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetOpenInfo(pgNum, viewMode, magnification, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDDoc::CropPages ( long nStartPage, long nEndPage, short nOddOrEvenPagesOnly, IDispatch * iAcroRect ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CropPages(nStartPage, nEndPage, nOddOrEvenPagesOnly, iAcroRect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDDoc::GetJSObject ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetJSObject(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+//
+// interface CAcroPDPage wrapper method implementations
+//
+
+inline IDispatchPtr CAcroPDPage::GetSize ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetSize(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroPDPage::GetAnnot ( long lIndex ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetAnnot(lIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroPDPage::AddNewAnnot ( long nIndexAddAfter, _bstr_t szSubType, IDispatch * pRectDispatch ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_AddNewAnnot(nIndexAddAfter, szSubType, pRectDispatch, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDPage::AddAnnot ( long lIndexAddAfter, IDispatch * pDispatch ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_AddAnnot(lIndexAddAfter, pDispatch, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDPage::RemoveAnnot ( long lIndex ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_RemoveAnnot(lIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroPDPage::GetAnnotIndex ( IDispatch * pDispatch ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetAnnotIndex(pDispatch, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroPDPage::GetNumAnnots ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetNumAnnots(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDPage::CreatePageHilite ( IDispatch * pAcroHiliteList ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_CreatePageHilite(pAcroHiliteList, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroPDPage::CreateWordHilite ( IDispatch * pAcroHiliteList ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_CreateWordHilite(pAcroHiliteList, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr CAcroPDPage::GetDoc ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetDoc(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long CAcroPDPage::GetNumber ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetNumber(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDPage::Draw ( short nHWND, short nHDC, short nXOrigin, short nYOrigin, short nZoom ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Draw(nHWND, nHDC, nXOrigin, nYOrigin, nZoom, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline short CAcroPDPage::GetRotate ( ) {
+    short _result = 0;
+    HRESULT _hr = raw_GetRotate(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDPage::SetRotate ( short nRotate ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetRotate(nRotate, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDPage::DrawEx ( long nHWND, long nHDC, IDispatch * updateRect, short nXOrigin, short nYOrigin, short nZoom ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_DrawEx(nHWND, nHDC, updateRect, nXOrigin, nYOrigin, nZoom, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDPage::CopyToClipboard ( IDispatch * boundRect, short nXOrigin, short nYOrigin, short nZoom ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CopyToClipboard(boundRect, nXOrigin, nYOrigin, nZoom, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDPage::CropPage ( IDispatch * rect ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_CropPage(rect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface CAcroPDTextSelect wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroPDTextSelect::Destroy ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Destroy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroPDTextSelect::GetNumText ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetNumText(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDTextSelect::GetBoundingRect ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetBoundingRect(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline long CAcroPDTextSelect::GetPage ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetPage(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDTextSelect::GetText ( long lTextIndex ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetText(lTextIndex, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface CAcroPDAnnot wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroPDAnnot::IsValid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsValid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDAnnot::GetSubtype ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetSubtype(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::IsEqual ( IDispatch * PDAnnot ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsEqual(PDAnnot, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long CAcroPDAnnot::GetColor ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_GetColor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::SetColor ( long nRGBColor ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetColor(nRGBColor, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDAnnot::GetTitle ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetTitle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::SetTitle ( _bstr_t szTitle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetTitle(szTitle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDAnnot::GetContents ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetContents(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::SetContents ( _bstr_t szContents ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetContents(szContents, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::IsOpen ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsOpen(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::SetOpen ( long bIsOpen ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetOpen(bIsOpen, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDAnnot::GetRect ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetRect(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::SetRect ( IDispatch * rect ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetRect(rect, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IDispatchPtr CAcroPDAnnot::GetDate ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_GetDate(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::SetDate ( IDispatch * lAcroTime ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetDate(lAcroTime, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDAnnot::Perform ( IDispatch * pAcroAVDoc ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Perform(pAcroAVDoc, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface CAcroPDBookmark wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroPDBookmark::GetByTitle ( IDispatch * pAcroPDDoc, _bstr_t sBookmarkTitle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_GetByTitle(pAcroPDDoc, sBookmarkTitle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDBookmark::Destroy ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Destroy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDBookmark::IsValid ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsValid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t CAcroPDBookmark::GetTitle ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetTitle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL CAcroPDBookmark::SetTitle ( _bstr_t sNewTitle ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_SetTitle(sNewTitle, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL CAcroPDBookmark::Perform ( IDispatch * pAcroAVDoc ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Perform(pAcroAVDoc, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface CAcroRect wrapper method implementations
+//
+
+inline short CAcroRect::GetLeft ( ) {
+    short _result = 0;
+    HRESULT _hr = get_Left(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroRect::PutLeft ( short pVal ) {
+    HRESULT _hr = put_Left(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroRect::GetTop ( ) {
+    short _result = 0;
+    HRESULT _hr = get_Top(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroRect::PutTop ( short pVal ) {
+    HRESULT _hr = put_Top(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroRect::Getright ( ) {
+    short _result = 0;
+    HRESULT _hr = get_right(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroRect::Putright ( short pVal ) {
+    HRESULT _hr = put_right(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroRect::Getbottom ( ) {
+    short _result = 0;
+    HRESULT _hr = get_bottom(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroRect::Putbottom ( short pVal ) {
+    HRESULT _hr = put_bottom(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface CAcroPoint wrapper method implementations
+//
+
+inline short CAcroPoint::Getx ( ) {
+    short _result = 0;
+    HRESULT _hr = get_x(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroPoint::Putx ( short pVal ) {
+    HRESULT _hr = put_x(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroPoint::Gety ( ) {
+    short _result = 0;
+    HRESULT _hr = get_y(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroPoint::Puty ( short pVal ) {
+    HRESULT _hr = put_y(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface CAcroTime wrapper method implementations
+//
+
+inline short CAcroTime::Getyear ( ) {
+    short _result = 0;
+    HRESULT _hr = get_year(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putyear ( short pVal ) {
+    HRESULT _hr = put_year(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Getmonth ( ) {
+    short _result = 0;
+    HRESULT _hr = get_month(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putmonth ( short pVal ) {
+    HRESULT _hr = put_month(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Getdate ( ) {
+    short _result = 0;
+    HRESULT _hr = get_date(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putdate ( short pVal ) {
+    HRESULT _hr = put_date(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Gethour ( ) {
+    short _result = 0;
+    HRESULT _hr = get_hour(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Puthour ( short pVal ) {
+    HRESULT _hr = put_hour(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Getminute ( ) {
+    short _result = 0;
+    HRESULT _hr = get_minute(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putminute ( short pVal ) {
+    HRESULT _hr = put_minute(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Getsecond ( ) {
+    short _result = 0;
+    HRESULT _hr = get_second(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putsecond ( short pVal ) {
+    HRESULT _hr = put_second(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Getmillisecond ( ) {
+    short _result = 0;
+    HRESULT _hr = get_millisecond(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putmillisecond ( short pVal ) {
+    HRESULT _hr = put_millisecond(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline short CAcroTime::Getday ( ) {
+    short _result = 0;
+    HRESULT _hr = get_day(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void CAcroTime::Putday ( short pVal ) {
+    HRESULT _hr = put_day(pVal);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface CAcroHiliteList wrapper method implementations
+//
+
+inline VARIANT_BOOL CAcroHiliteList::Add ( short nOffset, short nLength ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Add(nOffset, nLength, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IProvideESData wrapper method implementations
+//
+
+inline HRESULT IProvideESData::GetESObject ( VARIANT * eso ) {
+    HRESULT _hr = raw_GetESObject(eso);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IProvideESData::GetESContext ( VARIANT * esc ) {
+    HRESULT _hr = raw_GetESContext(esc);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IAcroAXDoc wrapper method implementations
+//
+
+inline IDispatchPtr IAcroAXDoc::Application ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_Application(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+inline IDispatchPtr IAcroAXDoc::Document ( ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_Document(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+//
+// dispinterface _AcroAXDocEventSink wrapper method implementations
+//
+
+inline HRESULT _AcroAXDocEventSink::Stop ( ) {
+    HRESULT _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_ERROR, (void*)&_result, NULL);
+    return _result;
+}
