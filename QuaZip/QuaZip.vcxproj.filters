@@ -220,7 +220,7 @@
     
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\development\zlib-1.2.3\zlib.3">
+    <None Include="D:\OpenGLTest\osgProject\zlib-1.2.3\zlib.3">
       <Filter>Distribution Files</Filter>
     </None>
   </ItemGroup>

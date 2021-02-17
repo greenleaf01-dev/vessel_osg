@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuaZip", "QuaZip\QuaZip.vcxproj", "{932ADFD4-9E47-386D-A8C3-DD0A597495CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Utility\Utility.vcxproj", "{280DA366-2ECF-310A-B283-73A2C359A220}"
+	ProjectSection(ProjectDependencies) = postProject
+		{932ADFD4-9E47-386D-A8C3-DD0A597495CC} = {932ADFD4-9E47-386D-A8C3-DD0A597495CC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vessel_viewer", "vessel_viewer\vessel_viewer.vcxproj", "{A6B6F5E8-C05D-39F0-99D4-192204250C7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932ADFD4-9E47-386D-A8C3-DD0A597495CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{932ADFD4-9E47-386D-A8C3-DD0A597495CC}.Debug|Win32.Build.0 = Debug|Win32
+		{932ADFD4-9E47-386D-A8C3-DD0A597495CC}.Release|Win32.ActiveCfg = Release|Win32
+		{932ADFD4-9E47-386D-A8C3-DD0A597495CC}.Release|Win32.Build.0 = Release|Win32
+		{280DA366-2ECF-310A-B283-73A2C359A220}.Debug|Win32.ActiveCfg = Debug|Win32
+		{280DA366-2ECF-310A-B283-73A2C359A220}.Debug|Win32.Build.0 = Debug|Win32
+		{280DA366-2ECF-310A-B283-73A2C359A220}.Release|Win32.ActiveCfg = Release|Win32
+		{280DA366-2ECF-310A-B283-73A2C359A220}.Release|Win32.Build.0 = Release|Win32
+		{A6B6F5E8-C05D-39F0-99D4-192204250C7F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6B6F5E8-C05D-39F0-99D4-192204250C7F}.Debug|Win32.Build.0 = Debug|Win32
+		{A6B6F5E8-C05D-39F0-99D4-192204250C7F}.Release|Win32.ActiveCfg = Release|Win32
+		{A6B6F5E8-C05D-39F0-99D4-192204250C7F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = qt5.9.8
+	EndGlobalSection
+EndGlobal
