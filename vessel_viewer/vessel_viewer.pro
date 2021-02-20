@@ -25,7 +25,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
@@ -52,13 +51,15 @@ HEADERS	+= \
     3dtoolDialog/hh3dtoolswidget.h \
     3dtoolDialog/hhpanelwithnail.h \
     3dtoolDialog/hh3dtoolspanel.h \
-    3dtoolDialog/src_toolbar/hhtoolbarbuttonpanel.h
+    3dtoolDialog/src_toolbar/hhtoolbarbuttonpanel.h \
+    vessel_show.h
 
 SOURCES	+= \
     3dtoolDialog/hh3dtoolswidget.cpp \
     3dtoolDialog/hhpanelwithnail.cpp \
     3dtoolDialog/hh3dtoolspanel.cpp \
-    3dtoolDialog/src_toolbar/hhtoolbarbuttonpanel.cpp
+    3dtoolDialog/src_toolbar/hhtoolbarbuttonpanel.cpp \
+    vesselshow.cpp
 
 win32:{
     contains(DEFINES, WIN64):{
