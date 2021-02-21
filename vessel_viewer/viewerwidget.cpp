@@ -10,7 +10,9 @@
 #include <QVBoxLayout>
 #include <osg/ShapeDrawable>
 #include <osg/MatrixTransform>
+#include <osg/Material>
 #include "osgspheresegment.h"
+#include "vessel_show.h"
 
 class ShaderGeometry : public osg::Drawable
 {
@@ -79,16 +81,143 @@ static osg::Camera* createCamera(int x, int y, int w, int h)
     camera->setProjectionMatrixAsPerspective(
         30.0f, static_cast<double>(traits->width) /
         static_cast<double>(traits->height), 1.0f, 10000.0f);
+
+	osg::StateSet* stateset = camera->getOrCreateStateSet();
+	stateset->setGlobalDefaults();
     return camera.release();
 }
+
+
+class flagSelectDeleteVisitor
+	: public osg::NodeVisitor
+{
+public:
+
+	flagSelectDeleteVisitor()
+		: osg::NodeVisitor(osg::NodeVisitor::TRAVERSE_ALL_CHILDREN) {
+	}
+
+	virtual void apply(osg::Geode & geode)
+	{
+		std::string strNodeName = geode.getName();
+		if (std::string::npos == strNodeName.find("drawingNode"))
+		{
+			return;
+		}
+		geode.getOrCreateStateSet()->clear();
+	}
+
+	virtual void apply(osg::Node & node)
+	{
+		std::string strNodeName = node.getName();
+		if (std::string::npos == strNodeName.find("drawingNode"))
+		{
+			traverse(node);
+			return;
+		}
+		node.getOrCreateStateSet()->clear();
+		traverse(node);
+	}
+
+	virtual void apply(osg::Group & node)
+	{
+		std::string strNodeName = node.getName();
+		if (std::string::npos == strNodeName.find("drawingNode"))
+		{
+			traverse(node);
+			return;
+		}
+
+		node.getOrCreateStateSet()->clear();
+		traverse(node);
+	}
+};
+
+
+class CPickHandler :public osgGA::GUIEventHandler
+{
+public:
+	CPickHandler(osgViewer::Viewer *viewer) :mViewer(viewer) {}
+	virtual bool handle(const osgGA::GUIEventAdapter &ea, osgGA::GUIActionAdapter &aa)
+	{
+		switch (ea.getEventType())
+		{
+		case osgGA::GUIEventAdapter::PUSH:
+		{
+			if (ea.getButtonMask() & osgGA::GUIEventAdapter::LEFT_MOUSE_BUTTON)
+			{
+				if (ea.getButton() == 1)
+				{
+					auto view = dynamic_cast<osgViewer::View*>(&aa);
+					if (!view) return false;
+					Pick(ea.getX(), ea.getY());//可通过事件ea获得鼠标点击的坐标  
+				}
+			}
+			else if (ea.getButtonMask() & osgGA::GUIEventAdapter::RIGHT_MOUSE_BUTTON)
+			{
+				flagSelectDeleteVisitor  visitNode;
+				visitNode.apply(*mViewer->getSceneData());
+			}
+			return true;
+		}
+		}
+		return false;
+	}
+protected:
+	void Pick(float x, float y)
+	{
+		try
+		{
+			osgUtil::LineSegmentIntersector::Intersections intersections;//声明一个相交测试的结果集  
+			if (mViewer->computeIntersections(x, y, intersections))//利用view的computerIntersection函数来测试屏幕与场景相交结果存入到结果集中  
+			{
+				if (intersections.size() > 0)
+				{
+					osgUtil::LineSegmentIntersector::Intersections::iterator hitr = intersections.begin();
+					for (; hitr != intersections.end(); ++hitr)
+					{
+						bool bBreak = false;
+						for (auto iter = hitr->nodePath.begin(); iter != hitr->nodePath.end(); ++iter)
+						{
+							osg::Node* node = *iter;
+							if (nullptr != node  && "drawingNode" == node->getName())
+							{
+								osg::ref_ptr<osg::Material> material = new osg::Material;
+								osg::Vec4 redColor(0.5, 0.5, 0.5, 1.0);
+								material->setAmbient(osg::Material::FRONT, redColor);
+								material->setDiffuse(osg::Material::FRONT, redColor);
+								material->setColorMode(osg::Material::EMISSION);
+								node->getOrCreateStateSet()->setAttributeAndModes(material, osg::StateAttribute::ON | osg::StateAttribute::OVERRIDE);
+								//vecMaterial.push_back(material);
+								bBreak = true;
+								break;
+							}
+						}
+
+						if (bBreak)
+						{
+							break;
+						}
+					}
+				}
+			}
+		}
+		catch (...)
+		{
+			int a = 0;
+		}
+	}
+	osgViewer::Viewer *mViewer;
+};
+
 
 ViewerWidget::ViewerWidget(QWidget* pParent):QWidget(pParent)
 {
 	m_viewer.setUpThreading();
   //  auto scene = osgDB::readNodeFile("F:\\development\\osgStudy\\data\\cow.osg");
 //	auto scene = createCylinder(osg::Vec3(0, 0, 0), osg::Vec3(100, 0, 0), 10);
-
-	auto scene = GetOsgSphereSegment();
+//	auto scene = GetOsgSphereSegment();
+	auto scene = Vessel::GetVesselRootNode();
 	if(nullptr == scene)
     {
       return ;
@@ -120,6 +249,8 @@ ViewerWidget::ViewerWidget(QWidget* pParent):QWidget(pParent)
     m_viewer.setThreadingModel(osgViewer::Viewer::SingleThreaded);
     m_viewer.realize();
     m_thread.viewerPtr = &m_viewer;
+
+	m_viewer.addEventHandler(new CPickHandler(&m_viewer));
 
     QOpenGLContext* qglcx = gw->getGLWidget()->context()->contextHandle();
     if (qglcx->thread() != &m_thread) {
