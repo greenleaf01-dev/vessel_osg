@@ -222,14 +222,13 @@ ViewerWidget::ViewerWidget(QWidget* pParent):QWidget(pParent)
     {
       return ;
     }
-
-	scene->getOrCreateStateSet()->setMode(GL_LIGHTING, osg::StateAttribute::OFF);
-    auto pCamera = createCamera(50, 50, 640, 480);
+    auto pCamera = createCamera(50, 50, 640, 480);	
     if(nullptr == pCamera)
     {
       return ;
     }
 
+	m_viewer.setLightingMode(CLocalView::NO_LIGHT);
     m_viewer.setCamera(pCamera);
     m_viewer.setSceneData(scene);
     m_viewer.addEventHandler(new osgViewer::StatsHandler);

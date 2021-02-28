@@ -54,7 +54,8 @@ std::wstring s_strZ = L"Z";
 
 
 void setMaterial(osg::ref_ptr<osg::Group> root, const osg::Vec4& vecColor)
-{
+{  
+	return;
 	//设置材质
 	osg::ref_ptr<osg::Material> material = new osg::Material;
 	//设置正面散射颜色
@@ -111,7 +112,7 @@ static osg::ref_ptr<osg::MatrixTransform> createCylinder(const osg::Vec3 &from, 
 	cylinder->setDataVariance(osg::Object::DYNAMIC);
 
 	geode->addDrawable(cylinder.get());
-	setMaterial(geode, cylinder->getColor());
+	//setMaterial(geode, cylinder->getColor());
 	osg::Matrix mRotate, mTrans;
 	mRotate.makeRotate(osg::Vec3f(0.0f, 0.0f, 1.0f), to - from);
 	mTrans.makeTranslate(cylCenter);
@@ -504,7 +505,7 @@ osg::ref_ptr<osg::Group> getTheVesselData(std::string strFilePath)
 			geode->addDrawable(text);
 			geode->addDrawable(drawGeom);
 			geode->setDataVariance(osg::Object::DYNAMIC);
-			geode->getOrCreateStateSet()->setMode(GL_LIGHTING, osg::StateAttribute::ON);
+			//geode->getOrCreateStateSet()->setMode(GL_LIGHTING, osg::StateAttribute::ON);
 			group->addChild(geode);
 			continue;
 		}
@@ -535,7 +536,7 @@ osg::ref_ptr<osg::Group> getTheVesselData(std::string strFilePath)
 
 		osg::ref_ptr<osg::ShapeDrawable> drawGeom = createOneBNode(*iter->first.rbegin(), 1.0f);
 		geode->addChild(drawGeom);
-		geode->getOrCreateStateSet()->setMode(GL_LIGHTING, osg::StateAttribute::ON);
+		//geode->getOrCreateStateSet()->setMode(GL_LIGHTING, osg::StateAttribute::ON);
 		nodeSegment->addChild(geode);
 		group->addChild(nodeSegment);
 	}
@@ -556,7 +557,7 @@ void  setLight(osg::ref_ptr<osg::Group> pRoot)
 		osg::ref_ptr<osg::Light> lt = new osg::Light();
 		lt->setLightNum(0);
 		//设置方向
-		lt->setDirection(osg::Vec3(0.0, 0.0, -1.0));
+		lt->setDirection(osg::Vec3(0.0, -1.0, -1.0));
 		//设置位置
 		lt->setPosition(osg::Vec4(0.0, 0.0, 1.0, 0.0));
 		//设置光的颜色
