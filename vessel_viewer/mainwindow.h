@@ -3,20 +3,23 @@
 
 #include <QMainWindow>
 
-namespace Ui {
-class MainWindow;
-}
+class QMenu;
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
-
 public:
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+    explicit MainWindow(QWidget *parent = Q_NULLPTR);
 
+public slots:
+    void onSave();
+    void onLoad();
+
+    void switchLayoutDirection();
+    void setDockOptions();
 private:
-    Ui::MainWindow *ui;
+    void setupMenuBar();
+    void setupDockWidgets();
 };
 
 #endif // MAINWINDOW_H

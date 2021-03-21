@@ -34,7 +34,7 @@ int main( int argc, char** argv )
 		return app.exec();
 	}
 
-	if(false)
+    if(false)
 	{
 		ViewerWidget*  vw = new ViewerWidget;
 		vw->show();
@@ -55,9 +55,13 @@ int main( int argc, char** argv )
 	params3D["IConSize"] = QSize(5,5);
 	params3D["FontSize"] = 10;
 
-	HH3DToolsWidget* Panel = new HH3DToolsWidget;
-	//Panel->setGeometry(100, 100, 800, 600);
-	Panel->init(params3D);
-	Panel->show();
+//	HH3DToolsWidget* Panel = new HH3DToolsWidget;
+//	//Panel->setGeometry(100, 100, 800, 600);
+//	Panel->init(params3D);
+//	Panel->show();
+
+    MainWindow *w = new MainWindow;
+    w->resize(800,600);
+    w->show();
 	return app.exec();
 }

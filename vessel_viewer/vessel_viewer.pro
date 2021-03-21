@@ -36,8 +36,7 @@ HEADERS += \
         viewerwidget.h \
         osgspheresegment.cpp
 
-FORMS += \
-        mainwindow.ui
+FORMS +=
 
 INCLUDEPATH += \
     ../Common \
