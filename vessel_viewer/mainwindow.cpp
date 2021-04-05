@@ -159,3 +159,12 @@ void MainWindow::switchLayoutDirection()
         QApplication::setLayoutDirection(Qt::LeftToRight);
 }
 
+void MainWindow::closeEvent(QCloseEvent *event)
+{
+	ViewerWidget* pCenter = dynamic_cast<ViewerWidget*>(this->centralWidget());
+	if (nullptr != pCenter)
+	{
+		pCenter->closeLocalEvent(event);
+	}
+	QMainWindow::closeEvent(event);
+}

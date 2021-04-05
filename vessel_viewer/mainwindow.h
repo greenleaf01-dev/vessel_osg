@@ -17,6 +17,8 @@ public slots:
 
     void switchLayoutDirection();
     void setDockOptions();
+protected:
+	virtual void closeEvent(QCloseEvent *event);
 private:
     void setupMenuBar();
     void setupDockWidgets();
