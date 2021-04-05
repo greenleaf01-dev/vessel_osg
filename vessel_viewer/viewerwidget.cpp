@@ -244,6 +244,13 @@ ViewerWidget::ViewerWidget(QWidget* pParent):QWidget(pParent)
     {
         QVBoxLayout* layout = new QVBoxLayout;
         layout->addWidget(gw->getGLWidget());
+
+		QGLFormat format; 
+		format.setDepthBufferSize(0); 
+		format.setStencilBufferSize(0); 
+		format.setSamples(4);
+		gw->getGLWidget()->setFormat(format);
+
         setLayout(layout);
     }
 
