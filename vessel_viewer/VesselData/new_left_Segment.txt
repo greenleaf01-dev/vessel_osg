@@ -1,26 +1,33 @@
-The segement tokens is:0 the segment label is LM The segement length is:1
+The segement tokens is:0 the segment label is LM The segement length is:6
 vertex data: 32.3773 2.3768 32.7199 
-******************************************
-The segement tokens is:1 the segment label is OM The segement length is:1
-vertex data: 35.0199 4.4817 32.288 
-******************************************
-The segement tokens is:2 the segment label is LCX The segement length is:60
+vertex data: 33.416 3.7872 32.5195 
 vertex data: 35.0199 4.4817 32.288 
 vertex data: 36.5468 4.4817 31.4064 
 vertex data: 38.2572 4.90931 31.4064 
 vertex data: 39.9456 5.37503 31.2051 
-vertex data: 41.4774 6.02801 30.6255 
-vertex data: 42.4165 7.00961 29.5017 
-vertex data: 42.7379 8.23707 28.2776 
-vertex data: 42.8934 9.73954 27.3684 
-vertex data: 43.1339 11.1158 26.2929 
-vertex data: 44.0045 12.4949 25.6233 
-vertex data: 44.5672 14.0251 24.9522 
-vertex data: 45.2872 15.4867 24.2787 
-vertex data: 45.9228 17.0722 23.8423 
-vertex data: 46.6027 18.6006 23.2855 
-vertex data: 46.9907 20.1597 22.5593 
-vertex data: 47.7615 21.6239 21.9509 
+******************************************
+The segement tokens is:1 the segment label is OM The segement length is:19
+vertex data: 48.3449 23.1459 21.279 
+vertex data: 50.1302 25.5194 20.8557 
+vertex data: 51.3633 26.7559 21.0984 
+vertex data: 51.8353 28.4404 20.8788 
+vertex data: 51.8456 30.0219 20.0997 
+vertex data: 51.3937 31.4613 19.1874 
+vertex data: 50.7198 32.5919 18.0144 
+vertex data: 50.1578 33.7161 16.778 
+vertex data: 49.5394 34.8442 15.5724 
+vertex data: 48.7262 35.7079 14.2682 
+vertex data: 47.7938 36.4298 12.9575 
+vertex data: 46.9198 37.2237 11.6482 
+vertex data: 45.9641 37.7467 10.262 
+vertex data: 45.0025 38.1671 8.84541 
+vertex data: 44.0151 38.3916 7.4021 
+vertex data: 43.0231 38.4636 5.94639 
+vertex data: 41.9033 39.0874 4.73587 
+vertex data: 40.8732 39.684 3.43532 
+vertex data: 39.9244 39.8107 1.95474 
+******************************************
+The segement tokens is:2 the segment label is LCX The segement length is:44
 vertex data: 48.3449 23.1459 21.279 
 vertex data: 48.473 24.5692 20.2464 
 vertex data: 48.5824 25.9519 19.1581 
@@ -66,71 +73,7 @@ vertex data: 50.8576 26.6815 -40.3859
 vertex data: 51.5789 25.4935 -41.4706 
 vertex data: 52.2271 24.4693 -42.7509 
 ******************************************
-The segement tokens is:3 the segment label is  The segement length is:73
-vertex data: 38.2572 4.90931 31.4064 
-vertex data: 39.9456 5.37503 31.2051 
-vertex data: 41.4774 6.02801 30.6255 
-vertex data: 42.4165 7.00961 29.5017 
-vertex data: 42.7379 8.23707 28.2776 
-vertex data: 42.8934 9.73954 27.3684 
-vertex data: 43.1339 11.1158 26.2929 
-vertex data: 44.0045 12.4949 25.6233 
-vertex data: 44.5672 14.0251 24.9522 
-vertex data: 45.2872 15.4867 24.2787 
-vertex data: 45.9228 17.0722 23.8423 
-vertex data: 46.6027 18.6006 23.2855 
-vertex data: 46.9907 20.1597 22.5593 
-vertex data: 47.7615 21.6239 21.9509 
-vertex data: 48.3449 23.1459 21.279 
-vertex data: 50.1302 25.5194 20.8557 
-vertex data: 51.3633 26.7559 21.0984 
-vertex data: 51.8353 28.4404 20.8788 
-vertex data: 51.8456 30.0219 20.0997 
-vertex data: 51.3937 31.4613 19.1874 
-vertex data: 50.7198 32.5919 18.0144 
-vertex data: 50.1578 33.7161 16.778 
-vertex data: 49.5394 34.8442 15.5724 
-vertex data: 48.7262 35.7079 14.2682 
-vertex data: 47.7938 36.4298 12.9575 
-vertex data: 46.9198 37.2237 11.6482 
-vertex data: 45.9641 37.7467 10.262 
-vertex data: 45.0025 38.1671 8.84541 
-vertex data: 44.0151 38.3916 7.4021 
-vertex data: 43.0231 38.4636 5.94639 
-vertex data: 41.9033 39.0874 4.73587 
-vertex data: 40.8732 39.684 3.43532 
-vertex data: 39.9244 39.8107 1.95474 
-vertex data: 38.905 39.6834 0.521959 
-vertex data: 37.9281 39.4313 -0.923925 
-vertex data: 36.9241 39.4938 -2.37179 
-vertex data: 36.1476 39.3996 -3.95187 
-vertex data: 35.7136 39.6266 -5.64552 
-vertex data: 34.5733 39.0332 -6.85217 
-vertex data: 33.4101 38.3847 -8.00748 
-vertex data: 32.3985 38.0096 -9.40186 
-vertex data: 31.2677 37.7407 -10.7275 
-vertex data: 30.4041 37.4216 -12.2311 
-vertex data: 29.4372 36.8811 -13.6027 
-vertex data: 28.36 36.2169 -14.8303 
-vertex data: 27.3998 35.3829 -16.0513 
-vertex data: 26.7467 34.2305 -17.2148 
-vertex data: 25.758 33.7212 -18.5828 
-vertex data: 24.7454 33.3801 -19.9852 
-vertex data: 23.7894 32.7144 -21.3085 
-vertex data: 22.9214 31.7601 -22.5103 
-vertex data: 22.0829 30.7315 -23.6711 
-vertex data: 21.4826 30.0833 -25.1968 
-vertex data: 20.782 29.6815 -26.7639 
-vertex data: 20.1296 29.1549 -28.3149 
-vertex data: 19.4859 28.4522 -29.7982 
-vertex data: 18.712 27.4126 -30.9935 
-vertex data: 17.5889 26.4804 -31.9825 
-vertex data: 16.4434 25.413 -32.7928 
-vertex data: 15.4849 24.2324 -33.6851 
-vertex data: 14.1271 23.1205 -33.8534 
-vertex data: 13.1249 21.7743 -34.3934 
-vertex data: 12.6167 20.267 -35.1538 
-vertex data: 12.4071 18.8639 -36.2007 
+The segement tokens is:3 the segment label is  The segement length is:9
 vertex data: 12.2969 17.2526 -36.9077 
 vertex data: 11.3006 14.4351 -37.1708 
 vertex data: 10.7524 12.8847 -37.8064 
@@ -141,71 +84,7 @@ vertex data: 5.57598 8.65861 -37.3929
 vertex data: 4.11227 7.94662 -36.7155 
 vertex data: 2.45714 8.17159 -36.1513 
 ******************************************
-The segement tokens is:4 the segment label is  The segement length is:76
-vertex data: 38.2572 4.90931 31.4064 
-vertex data: 39.9456 5.37503 31.2051 
-vertex data: 41.4774 6.02801 30.6255 
-vertex data: 42.4165 7.00961 29.5017 
-vertex data: 42.7379 8.23707 28.2776 
-vertex data: 42.8934 9.73954 27.3684 
-vertex data: 43.1339 11.1158 26.2929 
-vertex data: 44.0045 12.4949 25.6233 
-vertex data: 44.5672 14.0251 24.9522 
-vertex data: 45.2872 15.4867 24.2787 
-vertex data: 45.9228 17.0722 23.8423 
-vertex data: 46.6027 18.6006 23.2855 
-vertex data: 46.9907 20.1597 22.5593 
-vertex data: 47.7615 21.6239 21.9509 
-vertex data: 48.3449 23.1459 21.279 
-vertex data: 50.1302 25.5194 20.8557 
-vertex data: 51.3633 26.7559 21.0984 
-vertex data: 51.8353 28.4404 20.8788 
-vertex data: 51.8456 30.0219 20.0997 
-vertex data: 51.3937 31.4613 19.1874 
-vertex data: 50.7198 32.5919 18.0144 
-vertex data: 50.1578 33.7161 16.778 
-vertex data: 49.5394 34.8442 15.5724 
-vertex data: 48.7262 35.7079 14.2682 
-vertex data: 47.7938 36.4298 12.9575 
-vertex data: 46.9198 37.2237 11.6482 
-vertex data: 45.9641 37.7467 10.262 
-vertex data: 45.0025 38.1671 8.84541 
-vertex data: 44.0151 38.3916 7.4021 
-vertex data: 43.0231 38.4636 5.94639 
-vertex data: 41.9033 39.0874 4.73587 
-vertex data: 40.8732 39.684 3.43532 
-vertex data: 39.9244 39.8107 1.95474 
-vertex data: 38.905 39.6834 0.521959 
-vertex data: 37.9281 39.4313 -0.923925 
-vertex data: 36.9241 39.4938 -2.37179 
-vertex data: 36.1476 39.3996 -3.95187 
-vertex data: 35.7136 39.6266 -5.64552 
-vertex data: 34.5733 39.0332 -6.85217 
-vertex data: 33.4101 38.3847 -8.00748 
-vertex data: 32.3985 38.0096 -9.40186 
-vertex data: 31.2677 37.7407 -10.7275 
-vertex data: 30.4041 37.4216 -12.2311 
-vertex data: 29.4372 36.8811 -13.6027 
-vertex data: 28.36 36.2169 -14.8303 
-vertex data: 27.3998 35.3829 -16.0513 
-vertex data: 26.7467 34.2305 -17.2148 
-vertex data: 25.758 33.7212 -18.5828 
-vertex data: 24.7454 33.3801 -19.9852 
-vertex data: 23.7894 32.7144 -21.3085 
-vertex data: 22.9214 31.7601 -22.5103 
-vertex data: 22.0829 30.7315 -23.6711 
-vertex data: 21.4826 30.0833 -25.1968 
-vertex data: 20.782 29.6815 -26.7639 
-vertex data: 20.1296 29.1549 -28.3149 
-vertex data: 19.4859 28.4522 -29.7982 
-vertex data: 18.712 27.4126 -30.9935 
-vertex data: 17.5889 26.4804 -31.9825 
-vertex data: 16.4434 25.413 -32.7928 
-vertex data: 15.4849 24.2324 -33.6851 
-vertex data: 14.1271 23.1205 -33.8534 
-vertex data: 13.1249 21.7743 -34.3934 
-vertex data: 12.6167 20.267 -35.1538 
-vertex data: 12.4071 18.8639 -36.2007 
+The segement tokens is:4 the segment label is  The segement length is:12
 vertex data: 12.2969 17.2526 -36.9077 
 vertex data: 12.3875 15.6207 -37.5688 
 vertex data: 12.6296 14.0117 -38.2476 
@@ -219,40 +98,7 @@ vertex data: 20.1196 5.51402 -42.0931
 vertex data: 21.55 4.78223 -42.8189 
 vertex data: 22.837 3.9987 -43.7343 
 ******************************************
-The segement tokens is:5 the segment label is OM The segement length is:42
-vertex data: 36.5468 4.4817 31.4064 
-vertex data: 38.2572 4.90931 31.4064 
-vertex data: 39.9456 5.37503 31.2051 
-vertex data: 41.4774 6.02801 30.6255 
-vertex data: 42.4165 7.00961 29.5017 
-vertex data: 42.7379 8.23707 28.2776 
-vertex data: 42.8934 9.73954 27.3684 
-vertex data: 43.1339 11.1158 26.2929 
-vertex data: 44.0045 12.4949 25.6233 
-vertex data: 44.5672 14.0251 24.9522 
-vertex data: 45.2872 15.4867 24.2787 
-vertex data: 45.9228 17.0722 23.8423 
-vertex data: 46.6027 18.6006 23.2855 
-vertex data: 46.9907 20.1597 22.5593 
-vertex data: 47.7615 21.6239 21.9509 
-vertex data: 48.3449 23.1459 21.279 
-vertex data: 50.1302 25.5194 20.8557 
-vertex data: 51.3633 26.7559 21.0984 
-vertex data: 51.8353 28.4404 20.8788 
-vertex data: 51.8456 30.0219 20.0997 
-vertex data: 51.3937 31.4613 19.1874 
-vertex data: 50.7198 32.5919 18.0144 
-vertex data: 50.1578 33.7161 16.778 
-vertex data: 49.5394 34.8442 15.5724 
-vertex data: 48.7262 35.7079 14.2682 
-vertex data: 47.7938 36.4298 12.9575 
-vertex data: 46.9198 37.2237 11.6482 
-vertex data: 45.9641 37.7467 10.262 
-vertex data: 45.0025 38.1671 8.84541 
-vertex data: 44.0151 38.3916 7.4021 
-vertex data: 43.0231 38.4636 5.94639 
-vertex data: 41.9033 39.0874 4.73587 
-vertex data: 40.8732 39.684 3.43532 
+The segement tokens is:5 the segment label is OM The segement length is:9
 vertex data: 39.9244 39.8107 1.95474 
 vertex data: 37.7961 41.8736 1.49169 
 vertex data: 37.4634 43.2942 0.501891 
@@ -263,14 +109,42 @@ vertex data: 38.2068 44.0675 -6.2728
 vertex data: 38.0846 43.9061 -8.0242 
 vertex data: 38.2939 43.7434 -9.76722 
 ******************************************
-The segement tokens is:6 the segment label is  The segement length is:1
-vertex data: 36.5468 4.4817 31.4064 
+The segement tokens is:6 the segment label is  The segement length is:33
+vertex data: 39.9244 39.8107 1.95474 
+vertex data: 38.905 39.6834 0.521959 
+vertex data: 37.9281 39.4313 -0.923925 
+vertex data: 36.9241 39.4938 -2.37179 
+vertex data: 36.1476 39.3996 -3.95187 
+vertex data: 35.7136 39.6266 -5.64552 
+vertex data: 34.5733 39.0332 -6.85217 
+vertex data: 33.4101 38.3847 -8.00748 
+vertex data: 32.3985 38.0096 -9.40186 
+vertex data: 31.2677 37.7407 -10.7275 
+vertex data: 30.4041 37.4216 -12.2311 
+vertex data: 29.4372 36.8811 -13.6027 
+vertex data: 28.36 36.2169 -14.8303 
+vertex data: 27.3998 35.3829 -16.0513 
+vertex data: 26.7467 34.2305 -17.2148 
+vertex data: 25.758 33.7212 -18.5828 
+vertex data: 24.7454 33.3801 -19.9852 
+vertex data: 23.7894 32.7144 -21.3085 
+vertex data: 22.9214 31.7601 -22.5103 
+vertex data: 22.0829 30.7315 -23.6711 
+vertex data: 21.4826 30.0833 -25.1968 
+vertex data: 20.782 29.6815 -26.7639 
+vertex data: 20.1296 29.1549 -28.3149 
+vertex data: 19.4859 28.4522 -29.7982 
+vertex data: 18.712 27.4126 -30.9935 
+vertex data: 17.5889 26.4804 -31.9825 
+vertex data: 16.4434 25.413 -32.7928 
+vertex data: 15.4849 24.2324 -33.6851 
+vertex data: 14.1271 23.1205 -33.8534 
+vertex data: 13.1249 21.7743 -34.3934 
+vertex data: 12.6167 20.267 -35.1538 
+vertex data: 12.4071 18.8639 -36.2007 
+vertex data: 12.2969 17.2526 -36.9077 
 ******************************************
-The segement tokens is:7 the segment label is LAD The segement length is:55
-vertex data: 33.416 3.7872 32.5195 
-vertex data: 35.0199 4.4817 32.288 
-vertex data: 36.5468 4.4817 31.4064 
-vertex data: 38.2572 4.90931 31.4064 
+The segement tokens is:7 the segment label is LAD The segement length is:51
 vertex data: 39.9456 5.37503 31.2051 
 vertex data: 42.9139 5.10508 31.5462 
 vertex data: 44.688 4.68045 31.7501 
@@ -323,6 +197,19 @@ vertex data: 75.312 -42.7706 -17.5029
 vertex data: 75.6375 -43.2686 -19.1625 
 vertex data: 75.8353 -43.7641 -20.8429 
 ******************************************
-The segement tokens is:8 the segment label is LCX The segement length is:1
-vertex data: 33.416 3.7872 32.5195 
+The segement tokens is:8 the segment label is LCX The segement length is:14
+vertex data: 39.9456 5.37503 31.2051 
+vertex data: 41.4774 6.02801 30.6255 
+vertex data: 42.4165 7.00961 29.5017 
+vertex data: 42.7379 8.23707 28.2776 
+vertex data: 42.8934 9.73954 27.3684 
+vertex data: 43.1339 11.1158 26.2929 
+vertex data: 44.0045 12.4949 25.6233 
+vertex data: 44.5672 14.0251 24.9522 
+vertex data: 45.2872 15.4867 24.2787 
+vertex data: 45.9228 17.0722 23.8423 
+vertex data: 46.6027 18.6006 23.2855 
+vertex data: 46.9907 20.1597 22.5593 
+vertex data: 47.7615 21.6239 21.9509 
+vertex data: 48.3449 23.1459 21.279 
 ******************************************

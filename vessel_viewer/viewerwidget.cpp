@@ -13,6 +13,7 @@
 #include <osg/Material>
 #include "osgspheresegment.h"
 #include "vessel_show.h"
+#include "vesselnode.h"
 
 class ShaderGeometry : public osg::Drawable
 {
@@ -217,7 +218,8 @@ ViewerWidget::ViewerWidget(QWidget* pParent):QWidget(pParent)
   //  auto scene = osgDB::readNodeFile("F:\\development\\osgStudy\\data\\cow.osg");
 //	auto scene = createCylinder(osg::Vec3(0, 0, 0), osg::Vec3(100, 0, 0), 10);
 //	auto scene = GetOsgSphereSegment();
-	auto scene = Vessel::GetVesselRootNode();
+//	auto scene = Vessel::GetVesselRootNode();
+    auto scene = SelfSkinVessel::getTheSelfSkinNode();
 	if(nullptr == scene)
     {
       return ;

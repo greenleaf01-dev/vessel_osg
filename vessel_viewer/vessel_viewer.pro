@@ -51,14 +51,18 @@ HEADERS	+= \
     3dtoolDialog/hhpanelwithnail.h \
     3dtoolDialog/hh3dtoolspanel.h \
     3dtoolDialog/src_toolbar/hhtoolbarbuttonpanel.h \
-    vessel_show.h
+    vessel_show.h\
+    wykobi/wykobi_instantiate.hpp\
+    wykobi/wykobi.hpp\
+    vesselnode.h
 
 SOURCES	+= \
     3dtoolDialog/hh3dtoolswidget.cpp \
     3dtoolDialog/hhpanelwithnail.cpp \
     3dtoolDialog/hh3dtoolspanel.cpp \
     3dtoolDialog/src_toolbar/hhtoolbarbuttonpanel.cpp \
-    vesselshow.cpp
+    vesselshow.cpp \
+    vesselnode.cpp
 
 win32:{
     contains(DEFINES, WIN64):{
