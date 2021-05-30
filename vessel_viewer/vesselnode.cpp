@@ -32,6 +32,8 @@
 #include <osg/PolygonOffset>
 #include <QString>
 #include <QDir>
+#include <osgQt/QFontImplementation>
+
 
 #include "vesselnode.h"
 
@@ -1569,7 +1571,7 @@ osg::Geode* createCornidateText(const osg::Vec3& pos, const std::wstring& conten
     text->setText(content.c_str());
     text->setColor(vecColor);
 
-    osg::ref_ptr<osgText::Font> font = osgText::readRefFontFile("fonts/arial.ttf");
+	osg::ref_ptr<osgText::Font> font = new osgText::Font(new osgQt::QFontImplementation(QFont("Arial")));
     text->setFont(font);
 		
     text->setDataVariance(osg::Object::DYNAMIC);
@@ -2088,7 +2090,7 @@ osgText::Text* createText(const osg::Vec3& pos, const std::wstring& content, dou
 
     text->setDataVariance(osg::Object::DYNAMIC);
 
-    osg::ref_ptr<osgText::Font> font = osgText::readRefFontFile("fonts/arial.ttf");
+    osg::ref_ptr<osgText::Font> font = new osgText::Font(new osgQt::QFontImplementation(QFont("Arial"))); //osgText::readRefFontFile("fonts/arial.ttf");
     text->setFont(font);
 
     text->setBackdropType(osgText::Text::OUTLINE);
